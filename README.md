@@ -369,13 +369,12 @@ The data provided in this setting will be used by auto-trader for determining yo
 *  Default settings work well
 *  Definition of terms:
   * **File Path**: Location or a directory where you want the downloaded files to be saved. If left empty, the default is the folder the application is running in.
-  * **Exchange**:  NSE( default). The exchange this auto-trade will be working on
-  * **Market Prefix**: NSE_ (default)
-  * **Currency**: INR (default). The currency this auto-trade will be utilising
+  * **Markey**:  NASDAQ( default). The exchange this auto-trade will be working on
+  * **Currency**: USD (default). The currency this auto-trade will be utilising
   * **Sec. Type**: STK (default). The security type this auto-trade will be trading
   * **Leverage**: 1.0 (default). The leverage/margin you wish to use.
-  * **Allocation**: 100% (default). The percentage of capital you wish to auto-trade with. For example, if you have INR 100K, and set **Allocation** as 60%, then only INR 60K will be used for auto-trade
-  * **Position Size**: 10% (default). The percentage of allocated capital per position
+  * **Allocation**: 100% (default). The percentage of capital you wish to auto-trade with. For example, if you have USD 100K, and set **Allocation** as 60%, then only USD 60K will be used for auto-trade
+  * **Position Size**: 6.5% (default). The percentage of allocated capital per position
   * **Max. Amount**: 2000000 (default). Any high number you wish, this is used to make sure no *crazy* orders are placed on the market
 
 ![tc_trade](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_tcset.png)
