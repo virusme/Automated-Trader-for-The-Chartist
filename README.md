@@ -18,7 +18,7 @@ Automated Trader for The Chartist
 * stable Internet connection (minimum speed 500kbps)
 * Account with [Interactive Brokers](http://www.interactivebrokers.com) for trading
 * [Interactive Brokers Trader Workstation or Gateway](https://www.interactivebrokers.com/en/index.php?f=14099#tws-software)
-* Subscription to **The Chartist**'s [US Power Setups](https://www.thechartist.com.au/Benefits/short-term-share-trading.html) (_required only if you wish to activate **The Chartist** auto-trade feature_)
+* Subscription to **The Chartist**'s [US Power Setups](https://www.thechartist.com.au/Benefits/short-term-share-trading.html) (_required only if you wish to use **The Chartist** auto-trade feature_)
 
 **Download**:
 Visit [Automated Trader for The Chartist](http://www.theportfoliotrader.com/downloads/automated-trader-for-the-chartist/) to download this software.
@@ -426,7 +426,7 @@ The data provided here will be used for generating and saving reports, as well a
 
 ### The Chartist:  One-Click Process
 This will download your chosen [**US Power Setup**](https://www.thechartist.com.au/Benefits/short-term-share-trading.html), check account information, process orders, manage orders, generate new orders to be placed, place orders to IB server, prepare a detailed report of this processing and email the report.
-During the execution of this process, you can visualise the logging in to The Chartist and accessing [**US Power Setups**](https://www.thechartist.com.au/Benefits/short-term-share-trading.html). Internet Explorer will close by itself once the process is completed.
+During the execution of this process, Internet Explorer will open automatically to help you visualise the logging in to The Chartist and accessing [**US Power Setups**](https://www.thechartist.com.au/Benefits/short-term-share-trading.html) actions. Internet Explorer will close by itself once the process is completed.
 WARNING: DO NOT FORCIBLY CLOSE INTERNET EXPLORER WHILE THE PROCESS IS RUNNING.
  
 * Go to**The Chartist** tab
