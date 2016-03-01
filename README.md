@@ -18,7 +18,7 @@ Automated Trader for The Chartist
 * stable Internet connection (minimum speed 500kbps)
 * Account with [Interactive Brokers](http://www.interactivebrokers.com) for trading
 * [Interactive Brokers Trader Workstation or Gateway](https://www.interactivebrokers.com/en/index.php?f=14099#tws-software)
-* Subscription to **The Chartist**'s [US Power Setups](https://www.thechartist.com.au/Benefits/short-term-share-trading.html) (_required only if you wish to activate **Auto Trade** feature_)
+* Subscription to **The Chartist**'s [US Power Setups](https://www.thechartist.com.au/Benefits/short-term-share-trading.html) (_required only if you wish to activate **The Chartist** auto-trade feature_)
 
 **Download**:
 Visit [Automated Trader for The Chartist](http://www.theportfoliotrader.com/downloads/automated-trader-for-the-chartist/) to download this software.
