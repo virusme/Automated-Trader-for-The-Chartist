@@ -382,7 +382,7 @@ The data provided in this setting will be used by auto-trader for determining yo
 
 >**Note**:
 >* Do not change settings under **Trades Sheet Settings**, automated trader will not work if you change this setting
->* Standard ticker and order attributes for trading [US Power Setups]() both Original and HFT is stored locally on your computer. They can be viewed by opening either _utilities/sys.xml_ or _utilities/hft.xml_ using a word-processor
+>* Standard ticker and order attributes for trading [US Power Setups]() (both Original and HFT) is stored locally on your computer. They can be viewed by opening either _utilities/sys.xml_ or _utilities/hft.xml_ using a word-processor
 >* Every time **Apply** is clicked, the settings are saved for future use
 
 
@@ -425,8 +425,10 @@ The data provided here will be used for generating and saving reports, as well a
 
 
 ### The Chartist:  One-Click Process
-This will download the your chosen [**US Power Setup**](https://www.thechartist.com.au/Benefits/short-term-share-trading.html), check account information, process orders, manage orders, generate new orders to be placed, place orders to IB server, prepare a detailed report of this processing and email the report.
-
+This will download your chosen [**US Power Setup**](https://www.thechartist.com.au/Benefits/short-term-share-trading.html), check account information, process orders, manage orders, generate new orders to be placed, place orders to IB server, prepare a detailed report of this processing and email the report.
+During the execution of this process, you can visualise the logging in to The Chartist and accessing [**US Power Setups**](https://www.thechartist.com.au/Benefits/short-term-share-trading.html). Internet Explorer will close by itself once the process is completed.
+WARNING: DO NOT FORCIBLY CLOSE INTERNET EXPLORER WHILE THE PROCESS IS RUNNING.
+ 
 * Go to**The Chartist** tab
 * Click **Process**
 * And that's it!
