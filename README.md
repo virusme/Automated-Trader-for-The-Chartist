@@ -436,8 +436,14 @@ WARNING: DO NOT FORCIBLY CLOSE INTERNET EXPLORER WHILE THE PROCESS IS RUNNING.
 * Click **Process**
 * And that's it!
 
+Figure below presents the auto-trade in action:
+
 <br>
-![tc_process](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_at_process.png)
+![tc_inaction](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_inaction.png)
+
+
+<br>
+![tc_process](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_process.png)
 
 >**Note**:
 >* The figure above shows the detailed process log
@@ -455,12 +461,12 @@ Details of order management, daily orders and daily log (number of orders, file 
 To View details of order management and daily orders:
 * Go to **The Chartist** --> **Orders**
 
-![tc_orders](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_at_orders.png)
+![tc_orders](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_orders.png)
 
 To View details of daily logs:
 * Go to **The Chartist** --> **Log Diary**
 
-![tc_logdiary](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_at_logdiary.png)
+![tc_logdiary](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_logdiary.png)
 
 
 :arrow_double_up: [Back to Top](#table-of-contents)
@@ -471,15 +477,14 @@ To View details of daily logs:
 
 ###The Chartist: Report Format
 
-![tc_report](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/2_report.png)
+![tc_report](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_report.png)
 
 The report that will generated and emailed would consist of:
 
 * *Summary*: Summary of your account and placed orders
 * *Process Log*: Process log of auto-trade
 * *Log Diary*: Daily log of number of buy, sell, open positions and comments
-* *Orders*:  Buy, sell that have been placed via auto-trade and open orders 
-* *The Portfolio Trader*: The Portfolio Trader's orders for the day
+* *The Chartist Orders*: The Chartist orders for the day
 * *Portfolio*: A snapshot of your portfolio at the time of processing
 * *API Error Logs*: Error log from the IB server
 
