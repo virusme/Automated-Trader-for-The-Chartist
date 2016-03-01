@@ -427,7 +427,10 @@ The data provided here will be used for generating and saving reports, as well a
 ### The Chartist:  One-Click Process
 This will download your chosen [**US Power Setup**](https://www.thechartist.com.au/Benefits/short-term-share-trading.html), check account information, process orders, manage orders, generate new orders to be placed, place orders to IB server, prepare a detailed report of this processing and email the report.
 During the execution of this process, Internet Explorer will open automatically to help you visualise the logging in to The Chartist and accessing [**US Power Setups**](https://www.thechartist.com.au/Benefits/short-term-share-trading.html) actions. Internet Explorer will close by itself once the process is completed.
+
+<p align="center">
 WARNING: DO NOT FORCIBLY CLOSE INTERNET EXPLORER WHILE THE PROCESS IS RUNNING.
+</p>
  
 * Go to**The Chartist** tab
 * Click **Process**
