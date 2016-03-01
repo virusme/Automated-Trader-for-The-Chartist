@@ -14,6 +14,7 @@ Automated Trader for The Chartist
 
 * Windows operating systems ( XP or higher), LINUX and OS X/Mac OS via [Mono](http://www.mono-project.com/)
 * .NET Environment (usually Win7 onwards the operating systems comes pre-loaded with .NET environment, [Mono](http://www.mono-project.com/) on Linux and MacOS)
+* Internet Explorer (version 9 or higher)
 * stable Internet connection (minimum speed 500kbps)
 * Account with [Interactive Brokers](http://www.interactivebrokers.com) for trading
 * [Interactive Brokers Trader Workstation or Gateway](https://www.interactivebrokers.com/en/index.php?f=14099#tws-software)
@@ -28,7 +29,7 @@ Visit [Automated Trader for The Chartist](http://www.theportfoliotrader.com/down
 > * The software is made available with single-computer license i.e. locked to one computer.
 > * In case you want to run this software on multiple computers increase the number of license's required during the registration process or contact info@theportfoliotrader.com for assistance.
 > * _This application should run fine on LINUX and OS X/Mac OS via [Mono](http://www.mono-project.com/). However, I have not tested this thoroughly. Contact info@theportfoliotrader.com if you want me to perform a thorough testing on LINUX or OS X/Mac OS_
-
+> * Dependency on Internet Explorer is temporary, I have included it so that the user can visualise the website login and file access actions
 <br>
 <br>
 
@@ -381,6 +382,7 @@ The data provided in this setting will be used by auto-trader for determining yo
 
 >**Note**:
 >* Do not change settings under **Trades Sheet Settings**, automated trader will not work if you change this setting
+>* Standard ticker and order attributes for trading [US Power Setups]() both Original and HFT is stored locally on your computer. They can be viewed by opening either _utilities/sys.xml_ or _utilities/hft.xml_ using a word-processor
 >* Every time **Apply** is clicked, the settings are saved for future use
 
 
