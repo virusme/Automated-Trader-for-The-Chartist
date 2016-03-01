@@ -354,7 +354,9 @@ The data provided in this setting will be used by auto-trader for determining yo
 
 * Go to **The Chartist** tab
 * Select a strategy from the drop-down menu as shown in the figure below
+
 <br>
+
 ![tc_select](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_select.png)
 
 <br>
