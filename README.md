@@ -94,7 +94,7 @@ The architecture of this software is presented in the figure below:
     * Connect to IB Gateway by setting IP address, log level, port number and client id including Connect and Disconnect buttons
     * Log: Server logs, Error logs, Clear error log button
 
- ![Connection](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/tabs_connection.png)
+ ![Connection](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/tab_connection.png)
 
 <br>
     
@@ -105,7 +105,7 @@ The architecture of this software is presented in the figure below:
     * Summary and Portfolio tabs
     * Close Position by right-click on Portfolio
 
-    ![Account](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/tabs_account.png)
+    ![Account](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/tab_account.png)
 
 <br>
 
@@ -125,7 +125,7 @@ The architecture of this software is presented in the figure below:
     * Request Executions and Clear Executions button
     * Reports tab
 
-    ![Executions](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/tabs_executions.png)
+    ![Executions](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/tab_executions.png)
 
 <br>
     
