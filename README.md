@@ -173,7 +173,7 @@ The architecture of this software is presented in the figure below:
 	* List of day's orders and log diary of orders
 	* Process log to keep you up-to-date on the current process
  
-  ![Auto Trade](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/tab_thechartist.png)
+  ![Auto Trade](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/tab_tc.png)
 
 
 :arrow_double_up: [Back to Top](#table-of-contents)
