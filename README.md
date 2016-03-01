@@ -350,6 +350,7 @@ The login and password provided here will be used to login to **The Chartist**'s
 
 ### The Chartist: Trade Settings
 The data provided in this setting will be used by auto-trader for determining your choice of [US Power Setups](https://www.thechartist.com.au/Benefits/short-term-share-trading.html), security type, exchange, position size, etc.
+These settings need to be set once. The settings are saved locally for future use. 
 
 #### The Chartist: Select US Power Setup Strategy
 
