@@ -244,7 +244,7 @@ The architecture of this software is presented in the figure below:
 
 
 ### Close open positions
-* Go to **Account** --> **Portfolio** tab
+* Go to **Account** :arrow_right: **Portfolio** tab
 * Right-click on the open position that you intend to close
 * Click **Close Position**
 
@@ -272,7 +272,7 @@ The architecture of this software is presented in the figure below:
 
 
 #### Changing extended ticker attributes
-* Go to **Orders** --> **Place/Modify Order**
+* Go to **Orders** :arrow_right: **Place/Modify Order**
 * Click **Ext. Ticker Attr.**
 * Make changes and click **Apply**
 
@@ -281,7 +281,7 @@ The architecture of this software is presented in the figure below:
 <br>
 
 #### Changing extended order attributes
-* Go to **Orders** --> **Place/Modify Order**
+* Go to **Orders** :arrow_right: **Place/Modify Order**
 * Click **Ext. Order Attr.**
 * Make changes and click **Apply**
 
@@ -302,7 +302,7 @@ The architecture of this software is presented in the figure below:
 
 
 ### Cancel orders
-* Go to **Orders** --> **Open Orders** tab
+* Go to **Orders** :arrow_right: **Open Orders** tab
 * Right click on the order that you wish to cancel and select **Cancel Order**
 
 ![placeorder_cancel](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_placed_order_cancel.png)
@@ -416,7 +416,7 @@ The data provided here will be used for generating and saving reports, as well a
 >**Note**:
 >* To send an email, one needs an email address where the email originates (from-email) and a destination email (to-email)
 >* **From-Email** and **To-Email** could be the same email address
-
+>* Every time **Apply** is clicked, the settings are saved for future use
 
 :arrow_double_up: [Back to Top](#table-of-contents)
 
@@ -460,12 +460,12 @@ Figure below presents the auto-trade in action:
 Details of order management, daily orders and daily log (number of orders, file downloaded, etc.) will displayed here at the end of  [One-Click Process](#the-chartist-one-click-process)
 
 To View details of order management and daily orders:
-* Go to **The Chartist** --> **Orders**
+* Go to **The Chartist** :arrow_right: **Orders**
 
 ![tc_orders](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_orders.png)
 
 To View details of daily logs:
-* Go to **The Chartist** --> **Log Diary**
+* Go to **The Chartist** :arrow_right: **Log Diary**
 
 ![tc_logdiary](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_logdiary.png)
 
