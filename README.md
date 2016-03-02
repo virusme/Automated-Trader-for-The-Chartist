@@ -6,14 +6,14 @@ Automated Trader for The Chartist
 
 **The software comes with**:
 
-* Host of simplified features for trading with [Interactive Brokers](http://www.interactiverbrokers.com) via IB Gateway api connectivity
+* Host of simplified features for trading with [Interactive Brokers](http://www.interactiverbrokers.com) via IB Gateway API connectivity
 * One click process for downloading, processing, placing and reporting of **The Chartist**'s [US Power Setups](https://www.thechartist.com.au/Benefits/short-term-share-trading.html) (activation license key required)
 * Set and forget hands-free feature for performing the one-click process automatically everyday at a designated time [*disabled feature*]
 
 **Requirements**:
 
-* Windows operating systems ( XP or higher), LINUX and OS X/Mac OS via [Mono](http://www.mono-project.com/)
-* .NET Environment (usually Win7 onwards the operating systems comes pre-loaded with .NET environment, [Mono](http://www.mono-project.com/) on Linux and MacOS)
+* Windows operating systems ( XP or higher)
+* .NET Environment (usually Win7 onwards the operating systems comes pre-loaded with .NET environment)
 * Internet Explorer (version 9 or higher)
 * stable Internet connection (minimum speed 500kbps)
 * Account with [Interactive Brokers](http://www.interactivebrokers.com) for trading
@@ -27,9 +27,11 @@ Visit [Automated Trader for The Chartist](http://www.theportfoliotrader.com/down
 > * Please use a valid email address while registering to download the software.
 > * License key will be generated and emailed to your email address. You will have to input this license key when prompted during the first run.
 > * The software is made available with single-computer license i.e. locked to one computer.
-> * In case you want to run this software on multiple computers increase the number of license's required during the registration process or contact info@theportfoliotrader.com for assistance.
-> * _This application should run fine on LINUX and OS X/Mac OS via [Mono](http://www.mono-project.com/). However, I have not tested this thoroughly. Contact info@theportfoliotrader.com if you want me to perform a thorough testing on LINUX or OS X/Mac OS_
-> * Dependency on Internet Explorer is temporary, I have included it so that the user can visualise the website login and file access actions
+> * In case you want to run this software on multiple computers then increase the number of license's required during the registration process or contact info@theportfoliotrader.com for assistance.
+> * Dependency on Internet Explorer is temporary, I have included it so that the user can visualise the website login and file access actions.
+> * _This application should run fine on LINUX and OS X/Mac OS via [Mono](http://www.mono-project.com/). Due to the dependency of this version on Internet Explorer it might be a difficult ask. I have not tested this thoroughly. Contact info@theportfoliotrader.com if you want me to perform a thorough testing on LINUX or OS X/Mac OS. Next version of this software will not have Internet Explorer dependency._
+> * **DISCLAIMER**: Automated Trader for The Chartist is dependent upon the design and/or organisation of the [The Chartist](https://www.thechartist.com.au)'s website. In an event, where [The Chartist](https://www.thechartist.com.au)'s website has been re-designed or re-organised, the auto-trade functionality will not work without upgrading Automated Trader for The Chartist software. 
+
 <br>
 <br>
 
@@ -78,6 +80,8 @@ Table of Contents
 ##Architecture
 -----------------
 The architecture of this software is presented in the figure below:
+
+<br>
 ![Automated Trader for The Chartist](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/AutomatedTrader_Diagram.png)
 
 :arrow_double_up: [Back to Top](#table-of-contents)
@@ -90,6 +94,8 @@ The architecture of this software is presented in the figure below:
 
 
 ### Interactive Brokers (IB) connectivity
+This provides a simplified user-interface and connectivity to Interactive Brokers gateway. All settings are stored locally on your computer. Every time the application is loaded, these settings are retrieved for your convenience.
+ 
 * **Connection**
     * Connection status indicator
     * Connect to IB Gateway by setting IP address, log level, port number and client id including Connect and Disconnect buttons
@@ -147,6 +153,8 @@ The architecture of this software is presented in the figure below:
 <br>
 
 ###The Chartist
+This provides a user-interface to alter settings for trading using [**The Chartist**](https://www.thechartist.com.au)'s [**US Power Setups**](https://www.thechartist.com.au/Benefits/short-term-share-trading.html) and to perform one-click trading. All settings are stored locally on your computer, using strong encryption where required. Every time the application is loaded, these settings are retrieved for your convenience.
+
 * **Trade Settings**
    * Set paths for downloaded files
    * Manage your trade details such as exchange, position size, margin, etc.
@@ -155,13 +163,11 @@ The architecture of this software is presented in the figure below:
    
 * **The Chartist Login**
     * Your login details for **The Chartist**'s [US Power Setups](https://www.thechartist.com.au/Benefits/short-term-share-trading.html)
-    * Stored locally, in your computer, using strong encryption
 
 <br>
 
 * **Report Settings**
-    * Set your to and from email and its mail settings for report delivery
-    * Stored locally, in your computer, using strong encryption
+    * Set your **To** and **From** email and its mail settings for report delivery
 
 <br>
     
@@ -172,7 +178,7 @@ The architecture of this software is presented in the figure below:
 
 * **Orders, Log Diary and Log**
 	* List of day's orders and log diary of orders
-	* Process log to keep you up-to-date on the current process
+	* Process log to keep you up-to-date on the current process pipeline
  
   ![Auto Trade](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/tab_tc.png)
 
@@ -202,7 +208,7 @@ The architecture of this software is presented in the figure below:
 
 >**Note**:
 > * License keys are emailed to your email address when you downloaded the software.
-> * It is not mandatory to input the license key. However, **The Chartist** facility will be only be activated for valid licenses. In case of invalid license key, you will have access to all other facility i.e. Interactive Brokers Gateway interface, but not **The Chartist**. You will have the option of activating **The Chartist** using **Activate The Chartist** button on the **Connection** tab.
+> * It is not mandatory to input the license key. However, **The Chartist** auto-trade facility will be only be activated for valid licenses. In case of invalid license key, you will have access to all other facility i.e. Interactive Brokers Gateway interface, but not **The Chartist** auto-trade facility. You will have the option of activating **The Chartist** auto-trade option using **Activate The Chartist** button on the **Connection** tab.
 
 :arrow_double_up: [Back to Top](#table-of-contents)
 
@@ -218,7 +224,7 @@ The architecture of this software is presented in the figure below:
 ![connect](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/2_connect.png)
 
 >**Note**:
-> * [Instructions on to how to enable connectivity to IB Gateway or Trader Workstation](https://github.com/virusme/Automated-Trader-for-NSE/wiki/IB-API-Settings) 
+> * [Instructions on to how to enable connectivity on your IB Gateway or Trader Workstation](https://github.com/virusme/Automated-Trader-for-NSE/wiki/IB-API-Settings) 
 > * IB Trader Workstation is a full-featured trading platform, it requires lots of memory and needs restart every 24 hours. Whereas IB Gateway is headless (no user-interface) connectivity to IB servers, it requires minimal memory and does not need restarts that often.
 > * To use with Automated Trader for The Chartist, I recommend IB Gateway because it is light-weight and does not need restarts
 >* Server and error logs provide a log of IB server requests and any error reports that IB Server reports or that arise due to connection with IB Server
@@ -274,7 +280,7 @@ The architecture of this software is presented in the figure below:
 #### Changing extended ticker attributes
 * Go to **Orders** :arrow_right: **Place/Modify Order**
 * Click **Ext. Ticker Attr.**
-* Make changes and click **Apply**
+* Make changes if required and click **Apply**
 
 ![placeorder_extticker](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/2_place_orders_extticker.png)
 
@@ -283,7 +289,7 @@ The architecture of this software is presented in the figure below:
 #### Changing extended order attributes
 * Go to **Orders** :arrow_right: **Place/Modify Order**
 * Click **Ext. Order Attr.**
-* Make changes and click **Apply**
+* Make changes if required and click **Apply**
 
 ![placeorder_extorder](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/2_place_orders_extorders.png)
 
@@ -291,7 +297,7 @@ The architecture of this software is presented in the figure below:
 >**Note**:
 >* For definition and description of each of the parameters in ticker attributes or order attributes please visit [Interactive Brokers knowledge base](https://ibkb.interactivebrokers.com/)
 >* Default settings work fine for day orders
->* Every time **Apply** is clicked, the settings are saved automatically for future use
+>* Every time **Apply** is clicked, the settings are saved automatically for future use. These settings are retrieved whenever the application is loaded, for your convenience.
 >* **GLOBAL CANCEL** cancels all open orders in one go.
 
 
@@ -332,9 +338,9 @@ The architecture of this software is presented in the figure below:
 
 
 ### The Chartist: The Chartist Login Details
-The login and password provided here will be used to login to **The Chartist**'s website.
+The login and password provided here will be used to login to https://www.thechartist.com.au website.
 
-* Go to **The Chartist** tab
+* Go to **The Chartist** :arrow_right: **Settings**  tab
 * Click **The Chartist Login Details**
 * You should enter your login and password that you use to access **The Chartist**'s [US Power Setups](https://www.thechartist.com.au/Benefits/short-term-share-trading.html)
 * This data is stored locally on your computer using strong encryption for future use
@@ -354,7 +360,7 @@ These settings need to be set once. The settings are saved locally for future us
 
 #### The Chartist: Select US Power Setup Strategy
 
-* Go to **The Chartist** tab
+* Go to **The Chartist** :arrow_right: **Settings** tab
 * Select a strategy from the drop-down menu as shown in the figure below
 
 <br>
@@ -365,7 +371,7 @@ These settings need to be set once. The settings are saved locally for future us
 
 #### The Chartist: Set Trade Settings
 
-* Go to **The Chartist** tab
+* Go to **The Chartist** :arrow_right: **Settings** tab
 * Click **Settings**
 * Make changes as required and click **Apply**
 *  Default settings work well
@@ -382,7 +388,7 @@ These settings need to be set once. The settings are saved locally for future us
 ![tc_trade](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_tcset.png)
 
 >**Note**:
->* Do not change settings under **Trades Sheet Settings**, automated trader will not work if you change this setting
+>* Do not change settings under **The Chartist Sheet**, automated trader will not work if you change this setting
 >* Standard ticker and order attributes for trading [US Power Setups]() (both Original and HFT) is stored locally on your computer. They can be viewed by opening either _utilities/sys.xml_ or _utilities/hft.xml_ using a word-processor
 >* Every time **Apply** is clicked, the settings are saved for future use
 
@@ -395,9 +401,9 @@ These settings need to be set once. The settings are saved locally for future us
 
 
 ### The Chartist: Set Report Settings
-The data provided here will be used for generating and saving reports, as well as emailing the report to your chosen email address
+The data provided here will be used for generating and saving reports, as well as emailing the report to your chosen email address.
 
-* Go to **The Chartist** tab
+* Go to **The Chartist** :arrow_right: **Settings** tab
 * Click **Report Settings**
 * Make changes as required and click **Apply**
 * Definition of terms:
@@ -433,7 +439,7 @@ During the execution of this process, Internet Explorer will open automatically 
 WARNING: DO NOT FORCIBLY CLOSE INTERNET EXPLORER WHILE THE PROCESS IS RUNNING.
 </p>
  
-* Go to**The Chartist** tab
+* Go to**The Chartist** :arrow_right: **Settings** tab
 * Click **Process**
 * And that's it!
 
@@ -512,7 +518,7 @@ Contact info@theportfoliotrader.com for assistance or if you have any queries
 License
 ----------
 <p align="justify">
-All the computer programs and software are supplied with the explicit understanding that they are to be used for personal purposes only. It is expressly prohibited to use the software by any organisation, firm, Limited Liability Company or Private Limited company.
+All the computer programs and software are supplied with the explicit understanding that they are to be used only for purposes that the computer programs and software were built for, as stated by the provider. It is expressly prohibited to misuse the software by any individual, organisation, firm, limited liability company or private limited company.
 </p>
 By downloading or using the programs, you acknowledge acceptance of the following DISCLAIMER OF WARRANTY:
 
@@ -520,7 +526,7 @@ By downloading or using the programs, you acknowledge acceptance of the followin
 DISCLAIMER OF WARRANTY
 </p>
 <p align="justify">
-ALL THE COMPUTER PROGRAMS AND SOFTWARE ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. WE MAKE NO WARRANTIES, EXPRESS OR IMPLIED, THAT THEY ARE FREE OF ERROR, OR ARE CONSISTENT WITH ANY PARTICULAR STANDARD OF MERCHANTABILITY, OR THAT THEY WILL MEET YOUR REQUIREMENTS FOR ANY PARTICULAR APPLICATION. THEY SHOULD NOT BE RELIED ON FOR SOLVING A PROBLEM WHOSE INCORRECT SOLUTION COULD RESULT IN INJURY TO A PERSON OR LOSS OF PROPERTY. IF YOU DO USE THEM IN SUCH A MANNER, IT IS AT YOUR OWN RISK. THE AUTHOR AND PUBLISHER DISCLAIM ALL LIABILITY FOR DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES RESULTING FROM YOUR USE OF THE PROGRAMS.
+ALL THE COMPUTER PROGRAMS AND SOFTWARE ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. WE MAKE NO WARRANTIES, EXPRESS OR IMPLIED, THAT THEY ARE FREE OF ERROR, OR ARE CONSISTENT WITH ANY PARTICULAR STANDARD OF MERCHANTABILITY, OR THAT THEY WILL MEET YOUR REQUIREMENTS FOR ANY PARTICULAR APPLICATION. THEY SHOULD NOT BE RELIED ON FOR SOLVING A PROBLEM WHOSE INCORRECT SOLUTION COULD RESULT IN INJURY TO A PERSON OR LOSS OF PROPERTY. IF YOU DO USE THEM IN SUCH A MANNER, IT IS AT YOUR OWN RISK. THE USE OF THIS SOFTWARE FOR ACTUAL TRADING IS AT YOUR OWN RISK. THE AUTHOR AND PUBLISHER DISCLAIM ALL LIABILITY FOR DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES RESULTING FROM YOUR USE OF THE PROGRAMS.
 </p>
 
 <br>
@@ -528,13 +534,17 @@ ALL THE COMPUTER PROGRAMS AND SOFTWARE ARE PROVIDED "AS IS" WITHOUT WARRANTY OF 
 ###Interactive Brokers API
 C# API is provided by [Interactive Brokers](http://www.interactivebrokers.com). Please refer to [Interactive Brokers](http://www.interactivebrokers.com) for any licensing terms and conditions of their API.
 
-**DISCLAIMER**: Automated Trader for The Chartist software is not approved by [Interactive Brokers](http://www.interactivebrokers.com) or any of its affiliates. 
+**DISCLAIMER**: Automated Trader for The Chartist software is not endorsed by [Interactive Brokers](http://www.interactivebrokers.com) or any of its affiliates. 
 
 <br>
 
 ###The Chartist
 Subscription to **The Chartist**'s [US Power Setups](https://www.thechartist.com.au/Benefits/short-term-share-trading.html) is provided by [The Chartist](https://www.thechartist.com.au/). Please refer to [The Chartist](https://www.thechartist.com.au/) for terms and conditions.
 
+**DISCLAIMER**: Automated Trader for The Chartist software is not endorsed by [The Chartist](https://www.thechartist.com.au) or any of its affiliates.
+
+**DISCLAIMER**: Automated Trader for The Chartist is dependent upon the design and/or organisation of the [The Chartist](https://www.thechartist.com.au)'s website. In an event, where [The Chartist](https://www.thechartist.com.au)'s website has been re-designed or re-organised, the auto-trade functionality will not work without upgrading Automated Trader for The Chartist software.  
+ 
 <br>
 
 Risk Disclosure Statement
