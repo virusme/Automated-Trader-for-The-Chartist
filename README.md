@@ -519,6 +519,9 @@ License
 ----------
 <p align="justify">
 All the computer programs and software are supplied with the explicit understanding that they are to be used only for purposes that the computer programs and software were built for, as stated by the provider. It is expressly prohibited to misuse the software by any individual, organisation, firm, limited liability company or private limited company.
+
+Full terms and conditions of downloading this software will be displayed when you are about to download the software.
+
 </p>
 By downloading or using the programs, you acknowledge acceptance of the following DISCLAIMER OF WARRANTY:
 
