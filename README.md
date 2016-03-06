@@ -508,8 +508,16 @@ The report that will generated and emailed would consist of:
 * *Portfolio*: A snapshot of your portfolio at the time of processing
 * *API Error Logs*: Error log from the IB server
 
+![tc_reportemail](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_reportemail.png)
+
+Above is an example of the report-email format:
+
+* *Email Subject*: The email has a subject that is composed of three parts. The first part is the name of the application that is sending this report, the second part is **Custom Email Subject** from your [Report Settings](#the-chartist-set-report-settings) and the third part is the status message of the process.
+* *Attachment*: The report file is attached to the email
+* *Email Body*: The email body consists of a generic message. However, if there were errors during the processing, those errors are listed in the body for your convenience. 
+
 >**Note**:
->* The reports are saved in the directory where this application resides under **reports** directory
+>* The reports are also saved on your local computer in the directory where this application resides under **reports** directory
 >* Reports are organised in **MMYYYY** folder with **ddMMYYY.xlsx** format, for example report for **19th February 2016** will be under **reports/022016/** and the file name would be **19022016.xlsx**
 
 
