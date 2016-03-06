@@ -30,7 +30,7 @@ Visit [Automated Trader for The Chartist](http://www.theportfoliotrader.com/down
 > * In case you want to run this software on multiple computers then increase the number of license's required during the registration process or contact info@theportfoliotrader.com for assistance.
 > * Dependency on Internet Explorer is temporary, I have included it so that the user can visualise the website login and file access actions.
 > * _This application should run fine on LINUX and OS X/Mac OS via [Mono](http://www.mono-project.com/). Due to the dependency of this version on Internet Explorer it might be a difficult ask. I have not tested this thoroughly. Contact info@theportfoliotrader.com if you want me to perform a thorough testing on LINUX or OS X/Mac OS. Next version of this software will not have Internet Explorer dependency._
-> * **DISCLAIMER**: Automated Trader for The Chartist is dependent upon the design and/or organisation of the [The Chartist](https://www.thechartist.com.au)'s website. In an event, where [The Chartist](https://www.thechartist.com.au)'s website has been re-designed or re-organised, the auto-trade functionality will not work without upgrading Automated Trader for The Chartist software. 
+> * **DISCLAIMER**: Automated Trader for The Chartist is dependent upon the design and/or organisation of the [The Chartist](https://www.thechartist.com.au)'s website, delivery and format of trades as of today. In an event, where [The Chartist](https://www.thechartist.com.au)'s website and/or delivery and format of trades has been re-designed or re-organised, then auto-trade functionality may or may not work untill modifications have been made to this software to accomodate such changes. 
 
 <br>
 <br>
@@ -182,7 +182,20 @@ This provides a user-interface to alter settings for trading using [**The Charti
  
   ![Auto Trade](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/tab_tc.png)
 
-
+<br>
+* **Safety Checks**
+	* [The Chartist](https://www.thechartist.com.au)'s trades are never processed more than once
+	* Account capital is always retrieved based on the currency settings
+	* Check for duplicate orders
+	* BUY order will not be placed if an OPEN position already exists in your portfolio
+	* SELL order will not placed if an OPEN position does not exist in your portfolio (No Short Selling)
+	* Orders are double-checked, before being placed, to match your position-size
+	* All BUY orders are placed **@ LMT** and all SELL orders are placed **@ MKT**
+	* Your portfolio OPEN positions are matched with [The Chartist](https://www.thechartist.com.au)'s OPEN positions.
+		* if your portfolio has an OPEN position that [The Chartist](https://www.thechartist.com.au) does not have, then a SELL order is generated to close that position
+		* if your portfolio **does not** have an OPEN position that [The Chartist](https://www.thechartist.com.au) has, then **BUY ORDER IS NOT GENERATED**
+  
+  
 :arrow_double_up: [Back to Top](#table-of-contents)
 
 <br>
@@ -508,7 +521,7 @@ The report that will generated and emailed would consist of:
 
 Support
 ---------
-Contact info@theportfoliotrader.com for assistance or if you have any queries
+Contact info@theportfoliotrader.com for assistance or if you have any queries.
 
 
 <br>
@@ -546,7 +559,7 @@ Subscription to **The Chartist**'s [US Power Setups](https://www.thechartist.com
 
 **DISCLAIMER**: Automated Trader for The Chartist software is not endorsed by [The Chartist](https://www.thechartist.com.au) or any of its affiliates.
 
-**DISCLAIMER**: Automated Trader for The Chartist is dependent upon the design and/or organisation of the [The Chartist](https://www.thechartist.com.au)'s website. In an event, where [The Chartist](https://www.thechartist.com.au)'s website has been re-designed or re-organised, the auto-trade functionality will not work without upgrading Automated Trader for The Chartist software.  
+**DISCLAIMER**: Automated Trader for The Chartist is dependent upon the design and/or organisation of the [The Chartist](https://www.thechartist.com.au)'s website, delivery and format of trades as of today. In an event, where [The Chartist](https://www.thechartist.com.au)'s website and/or delivery and format of trades has been re-designed or re-organised, then auto-trade functionality may or may not work untill modifications have been made to this software to accomodate such changes. 
  
 <br>
 
