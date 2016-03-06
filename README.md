@@ -191,7 +191,7 @@ This provides a user-interface to alter settings for trading using [**The Charti
 	* SELL order will not placed if an OPEN position does not exist in your portfolio (No Short Selling)
 	* Orders are double-checked, before being placed, to match your position-size
 	* All BUY orders are placed **@ LMT** and all SELL orders are placed **@ MKT**
-	* Your portfolio OPEN positions are matched with [The Chartist](https://www.thechartist.com.au)'s OPEN positions.
+	* Your portfolio OPEN positions are matched with [The Chartist](https://www.thechartist.com.au)'s OPEN positions:
 		* if your portfolio has an OPEN position that [The Chartist](https://www.thechartist.com.au) does not have, then a SELL order is generated to close that position
 		* if your portfolio **does not** have an OPEN position that [The Chartist](https://www.thechartist.com.au) has, then **BUY ORDER IS NOT GENERATED**
   
