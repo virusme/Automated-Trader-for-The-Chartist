@@ -9,6 +9,9 @@ Automated Trader for The Chartist
 * Host of simplified features for trading with [Interactive Brokers](http://www.interactiverbrokers.com) via IB Gateway API connectivity
 * One click process for downloading, processing, placing and reporting of **The Chartist**'s [US Power Setups](https://www.thechartist.com.au/Benefits/short-term-share-trading.html) (activation license key required)
 * Set and forget hands-free feature for performing the one-click process automatically everyday at a designated time [*disabled feature*]
+* Active monitoring of placed orders [*coming soon*]
+
+*Warning: In this version of the software, the orders are not actively monitored. If you are using MARGIN greater than 1.0 please be aware that US HFT orders are not actively monitored. The next version of this software will be shipped with active monitoring feature*
 
 **Requirements**:
 
