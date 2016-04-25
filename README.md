@@ -340,11 +340,24 @@ This provides a user-interface to alter settings for trading using [**The Charti
 <br>
 
 
-### The Chartist: The Chartist Login Details
+### Auto Trade: Select Strategy
+Your selection of  strategy in this setting will be used by the auto-trader for determining your choice of [US Power Setups](https://www.thechartist.com.au/Benefits/short-term-share-trading.html). This settings needs to be set once and is saved locally for future use. 
+
+
+* Go to **Auto Trade** :arrow_right: **Settings** tab
+* Select a strategy from the drop-down menu as shown in the figure below
+
+
+![tc_select](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_select.png)
+
+<br>
+
+
+### Auto Trade: Web Settings
 The login and password provided here will be used to login to https://www.thechartist.com.au website.
 
-* Go to **The Chartist** :arrow_right: **Settings**  tab
-* Click **The Chartist Login Details**
+* Go to **Auto Trade** :arrow_right: **Settings**  tab
+* Click **Web Settings**
 * You should enter your login and password that you use to access **The Chartist**'s [US Power Setups](https://www.thechartist.com.au/Benefits/short-term-share-trading.html)
 * This data is stored locally on your computer using strong encryption for future use
 
@@ -354,45 +367,38 @@ The login and password provided here will be used to login to https://www.thecha
 :arrow_double_up: [Back to Top](#table-of-contents)
 
 <br>
-<br>
 
 
-### The Chartist: Trade Settings
-The data provided in this setting will be used by auto-trader for determining your choice of [US Power Setups](https://www.thechartist.com.au/Benefits/short-term-share-trading.html), security type, exchange, position size, etc.
-These settings need to be set once. The settings are saved locally for future use. 
-
-#### The Chartist: Select US Power Setup Strategy
-
-* Go to **The Chartist** :arrow_right: **Settings** tab
-* Select a strategy from the drop-down menu as shown in the figure below
+### Auto Trade: Trade Settings 
+The data provided in this setting will be used by auto-trader for determining your choice of security type, exchange, position size, etc.
+These settings need to be set once and are saved locally for future use. 
 
 <br>
 
-![tc_select](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_select.png)
+#### Auto Trade: Set Trade Settings
 
-<br>
-
-#### The Chartist: Set Trade Settings
-
-* Go to **The Chartist** :arrow_right: **Settings** tab
-* Click **Settings**
+* Go to **Auto Trade** :arrow_right: **Settings** tab
+* Click **Trade Settings**
 * Make changes as required and click **Apply**
 *  Default settings work well
 *  Definition of terms:
   * **File Path**: Location or a directory where you want the downloaded files to be saved. If left empty, the default is the folder the application is running in.
-  * **Markey**:  NASDAQ( default). The exchange this auto-trade will be working on
-  * **Currency**: USD (default). The currency this auto-trade will be utilising
-  * **Sec. Type**: STK (default). The security type this auto-trade will be trading
   * **Leverage**: 1.0 (default). The leverage/margin you wish to use.
   * **Allocation**: 100% (default). The percentage of capital you wish to auto-trade with. For example, if you have USD 100K, and set **Allocation** as 60%, then only USD 60K will be used for auto-trade
   * **Position Size**: 6.5% (default). The percentage of allocated capital per position
   * **Max. Amount**: 2000000 (default). Any high number you wish, this is used to make sure no *crazy* orders are placed on the market
+  
+  * **The Chartist Sheet**: Do not change these settings, these are supposed to be constants for each strategy
+     * **Market**:  NASDAQ( default). The exchange this auto-trade will be working on
+     * **Currency**: USD (default). The currency this auto-trade will be utilising
+     * **Sec. Type**: STK (default). The security type this auto-trade will be trading
+  
 
 ![tc_trade](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_tcset.png)
 
 >**Note**:
 >* Do not change settings under **The Chartist Sheet**, automated trader will not work if you change this setting
->* Standard ticker and order attributes for trading [US Power Setups]() (both Original and HFT) is stored locally on your computer. They can be viewed by opening either _utilities/sys.xml_ or _utilities/hft.xml_ using a word-processor
+>* Standard Contract and Order attributes for trading [US Power Setups]() (both Original and HFT) is stored locally on your computer. They can be viewed by opening either _utilities/sys.xml_ or _utilities/hft.xml_ using a word-processor
 >* Every time **Apply** is clicked, the settings are saved for future use
 
 
@@ -403,10 +409,10 @@ These settings need to be set once. The settings are saved locally for future us
 
 
 
-### The Chartist: Set Report Settings
+### Auto Trade: Set Report Settings
 The data provided here will be used for generating and saving reports, as well as emailing the report to your chosen email address.
 
-* Go to **The Chartist** :arrow_right: **Settings** tab
+* Go to **Auto Trade** :arrow_right: **Settings** tab
 * Click **Report Settings**
 * Make changes as required and click **Apply**
 * Definition of terms:
@@ -465,16 +471,16 @@ Figure below presents the auto-trade in action:
 <br>
 
 
-###The Chartist: Orders & Log Diary
+### Auto Trade: Orders & Log Diary
 Details of order management, daily orders and daily log (number of orders, file downloaded, etc.) will displayed here at the end of  [One-Click Process](#the-chartist-one-click-process)
 
 To View details of order management and daily orders:
-* Go to **The Chartist** :arrow_right: **Orders**
+* Go to **Auto Trade** :arrow_right: **Orders**
 
 ![tc_orders](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_orders.png)
 
 To View details of daily logs:
-* Go to **The Chartist** :arrow_right: **Log Diary**
+* Go to **Auto Trade** :arrow_right: **Log Diary**
 
 ![tc_logdiary](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_logdiary.png)
 
@@ -485,7 +491,7 @@ To View details of daily logs:
 <br>
 
 
-###The Chartist: Report Format
+### Auto Trade: Report Format
 
 ![tc_report](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_report.png)
 
@@ -494,7 +500,7 @@ The report that will generated and emailed would consist of:
 * *Summary*: Summary of your account and placed orders
 * *Process Log*: Process log of auto-trade
 * *Log Diary*: Daily log of number of buy, sell, open positions and comments
-* *The Chartist Orders*: The Chartist orders for the day
+* *Orders*: The Chartist orders for the day
 * *Portfolio*: A snapshot of your portfolio at the time of processing
 * *API Error Logs*: Error log from the IB server
 
