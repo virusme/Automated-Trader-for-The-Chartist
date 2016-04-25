@@ -152,18 +152,16 @@ This provides a simplified user-interface and connectivity to Interactive Broker
 <br>
 <br>
 
-###The Chartist
+### Auto Trade
 This provides a user-interface to alter settings for trading using [**The Chartist**](https://www.thechartist.com.au)'s [**US Power Setups**](https://www.thechartist.com.au/Benefits/short-term-share-trading.html) and to perform one-click trading. All settings are stored locally on your computer, using strong encryption where required. Every time the application is loaded, these settings are retrieved for your convenience.
 
 
 * Select your trading strategy from a drop-down menu [The Chartist]
 <br>
 
-
 * **Web Settings** [The Chartist]
     * Your login details for **The Chartist**'s [US Power Setups](https://www.thechartist.com.au/Benefits/short-term-share-trading.html)
 <br>
-
 	
 * **Trade Settings** [The Chartist]
    * Set paths for downloaded files
@@ -172,22 +170,20 @@ This provides a user-interface to alter settings for trading using [**The Charti
 
 * **Report Settings** [Optional Settings]
     * Set your **To** and **From** email and its mail settings for report delivery
-
 <br>
 
 * **Advanced** [Optional Settings]
     * Set maximum positions for Active Monitoring, etc
-
 <br>
 
 * **One-Click Process**
     * One-Click processing for downloading, order management, placing orders and report generation
-
 <br>
 
 * **Orders, Log Diary and Log**
 	* List of day's orders and log diary of orders
 	* Process log to keep you up-to-date on the current process pipeline
+ 
  
   ![Auto Trade](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/tab_autotrade.png)
 
@@ -203,10 +199,10 @@ This provides a user-interface to alter settings for trading using [**The Charti
 	* Your portfolio OPEN positions are matched with [The Chartist](https://www.thechartist.com.au)'s OPEN positions:
 		* if your portfolio has an OPEN position that [The Chartist](https://www.thechartist.com.au) does not have, then a SELL order is generated to close that position
 		* if your portfolio **does not** have an OPEN position that [The Chartist](https://www.thechartist.com.au) has, then **BUY ORDER IS NOT GENERATED**
-	* Active Monitoring: 
-	    * Will perform *Active Monitoring* if **Max. Pos** is greater than **0**
-        * *Active Monitoring* will Cancel unfilled orders if number of filled orders reach your maximum imposed limited
-        * *Active Monitoring* will generate and place SELL orders if number of filled orders exceed your maximum imposed limit.The filled orders that are to be replaced on the market as SELL orders are selected based on their time-stamps i.e. last filled orders are placed as SELL orders first.   		
+	* **Active Monitoring**: 
+	    * Will perform **Active Monitoring** if **Max. Pos** is greater than **0**
+        * **Active Monitoring** will Cancel unfilled orders if number of filled orders reach your maximum imposed limited
+        * **Active Monitoring** will generate and place SELL orders if number of filled orders exceed your maximum imposed limit.The filled orders that are to be replaced on the market as SELL orders are selected based on their time-stamps i.e. last filled orders are placed as SELL orders first.   		
   
   
 :arrow_double_up: [Back to Top](#table-of-contents)
