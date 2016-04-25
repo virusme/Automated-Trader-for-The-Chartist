@@ -437,8 +437,23 @@ The data provided here will be used for generating and saving reports, as well a
 
 
 <br>
-<br>
 
+### Auto Trade: Advanced
+These settings will be used for **Active Monitoring**. You can set the maximum number of positions that you want filled and **Active Monitoring** will ensure that no more than maximum positions are filled.
+
+* Go to **Auto Trade** :arrow_right: **Settings** tab* 
+* Click **Advanced**
+* Set **Max. Positions** and click **Apply**
+
+>**Note**:
+>* **Active Monitoring** is always ENABLED
+>* Set **Max. Positions** to **0** if you do not want software to perform active monitoring
+
+![tc_report](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_advanced.png)
+
+<br>
+<br>
+ 
 
 ### The Chartist:  One-Click Process
 This will download your chosen [**US Power Setup**](https://www.thechartist.com.au/Benefits/short-term-share-trading.html), check account information, process orders, manage orders, generate new orders to be placed, place orders to IB server, prepare a detailed report of this processing and email the report.
