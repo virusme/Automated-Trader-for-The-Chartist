@@ -50,7 +50,7 @@ Table of Contents
   - [Architecture](#architecture)
   - [Features](#features)
     - [Interactive Brokers (IB) connectivity](#interactive-brokers-ib-connectivity)
-    - [The Chartist](#the-chartist)
+    - [Auto Trade](#auto-trade)
   - [How To](#how-to)
     - [Set Up](#set-up)
       - [Install](#install)
@@ -59,16 +59,16 @@ Table of Contents
     - [Subscribe to account information](#subscribe-to-account-information)
     - [Close open positions](#close-open-positions)
     - [Place or modify orders](#place-or-modify-orders)
-      - [Changing extended ticker attributes](#changing-extended-ticker-attributes)
-      - [Changing extended order attributes](#changing-extended-order-attributes)
-    - [Cancel orders](#cancel-orders)
-    - [Check executions](#check-executions)
-    - [The Chartist: Set Trade Settings](#the-chartist-set-trade-settings)
-    - [The Chartist: Set TPT Web Settings](#the-chartist-set-tpt-web-settings)
-    - [The Chartist: Set Report Settings](#the-chartist-set-report-settings)
-    - [The Chartist: One-Click Process](#the-chartist-one-click-process)
-    - [The Chartist: Orders & Log Diary](#the-chartist-orders--log-diary)
-    - [The Chartist: Report Format](#the-chartist-report-format)
+    - [Modify / Cancel orders](#modify-cancel-orders)
+	- [Auto Trade: Select Strategy](#auto-trade-select-strategy)
+    - [Auto Trade: Web Settings](#auto-trade-set-web-settings)
+	- [Auto Trade: Trade Settings](#auto-trade-trade-settings)
+	  - [Auto Trade: Set Trade Settings](#auto-trade-set-trade-settings)
+    - [Auto Trade: Set Report Settings](#auto-trade-set-report-settings)
+	- [Auto Trade: Advanced](#auto-trade-advanced)
+    - [Auto Trade: One-Click Process](#auto-trade-one-click-process)
+    - [Auto Trade: Orders & Log Diary](#auto-trade-orders--log-diary)
+    - [Auto Trade: Report Format](#auto-trade-report-format)
   - [Support](#support)
   - [License](#license)
   - [Risk Disclosure Statement](#risk-disclosure-statement)
@@ -441,17 +441,20 @@ These settings will be used for **Active Monitoring**. You can set the maximum n
 * Click **Advanced**
 * Set **Max. Positions** and click **Apply**
 
+
+![tc_report](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_advanced.png)
+
+
 >**Note**:
 >* **Active Monitoring** is always ENABLED
 >* Set **Max. Positions** to **0** if you do not want software to perform active monitoring
 
-![tc_report](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_advanced.png)
 
 <br>
 <br>
  
 
-### The Chartist:  One-Click Process
+### Auto Trade:  One-Click Process
 This will download your chosen [**US Power Setup**](https://www.thechartist.com.au/Benefits/short-term-share-trading.html), check account information, process orders, manage orders, generate new orders to be placed, place orders to IB server, prepare a detailed report of this processing and email the report.
 During the execution of this process, Internet Explorer will open automatically to help you visualise the logging in to The Chartist and accessing [**US Power Setups**](https://www.thechartist.com.au/Benefits/short-term-share-trading.html) actions. Internet Explorer will close by itself once the process is completed.
 
@@ -459,8 +462,8 @@ During the execution of this process, Internet Explorer will open automatically 
 WARNING: DO NOT FORCIBLY CLOSE INTERNET EXPLORER WHILE THE PROCESS IS RUNNING.
 </p>
  
-* Go to**The Chartist** :arrow_right: **Settings** tab
-* Click **Process**
+* Go to**Auto Trade** :arrow_right: **Settings** tab
+* Click **One-Click Process**
 * And that's it!
 
 Figure below presents the auto-trade in action:
