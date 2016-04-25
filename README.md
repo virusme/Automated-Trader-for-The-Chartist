@@ -7,11 +7,14 @@ Automated Trader for The Chartist
 **The software comes with**:
 
 * Host of simplified features for trading with [Interactive Brokers](http://www.interactiverbrokers.com) via IB Gateway API connectivity
+* Facility to handle multiple trading accounts
+* Always in-sync with Interactive Brokers servers
+* Ease of use
 * One click process for downloading, processing, placing and reporting of **The Chartist**'s [US Power Setups](https://www.thechartist.com.au/Benefits/short-term-share-trading.html) (activation license key required)
+* Active monitoring of placed orders
+* Facility to place delayed orders [*coming soon*]
 * Set and forget hands-free feature for performing the one-click process automatically everyday at a designated time [*disabled feature*]
-* Active monitoring of placed orders [*coming soon*]
 
-*Warning: In this version of the software, the orders are not actively monitored. If you are using MARGIN greater than 1.0 please be aware that US HFT orders are not actively monitored. The next version of this software will be shipped with active monitoring feature.*
 
 **Requirements**:
 
@@ -29,7 +32,6 @@ Visit [Automated Trader for The Chartist](http://www.theportfoliotrader.com/down
 > **Note**:
 > * Please use a valid email address while registering to download the software.
 > * License key will be generated and emailed to your email address. You will have to input this license key when prompted during the first run.
-> * The software is made available with single-computer license i.e. locked to one computer.
 > * In case you want to run this software on multiple computers then increase the number of license's required during the registration process or contact info@theportfoliotrader.com for assistance.
 > * Dependency on Internet Explorer is temporary, I have included it so that the user can visualise the website login and file access actions.
 > * _This application should run fine on LINUX and OS X/Mac OS via [Mono](http://www.mono-project.com/). Due to the dependency of this version on Internet Explorer it might be a difficult ask. I have not tested this thoroughly. Contact info@theportfoliotrader.com if you want me to perform a thorough testing on LINUX or OS X/Mac OS. Next version of this software will not have Internet Explorer dependency._
@@ -101,7 +103,7 @@ This provides a simplified user-interface and connectivity to Interactive Broker
  
 * **Connection**
     * Connection status indicator
-    * Connect to IB Gateway by setting IP address, log level, port number and client id including Connect and Disconnect buttons
+    * Connect to IB Gateway by setting IP address, log level, port number and client id including a toggle Connect/Disconnect button
     * Log: Server logs, Error logs, Clear error log button
 
  ![Connection](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/tab_connection.png)
@@ -109,33 +111,28 @@ This provides a simplified user-interface and connectivity to Interactive Broker
 <br>
     
 * **Account** 
+    * Select Account from drop-down menu
+	* Subscribe/Unsubscribe toggle button and Clear Account Summary buttons
     * Account number indicator
     * Last sync time indicator
-    * Subscribe, Unsubscribe and Clear Account Summary buttons
     * Summary and Portfolio tabs
-    * Close Position by right-click on Portfolio
+    * Close Position by right-click in Portfolio
 
     ![Account](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/tab_account.png)
 
 <br>
 
-* **Order**
-    * Ticker description and Order description (including extra Ticker attributes and Order attributes)
-    * What-If, Place Orders, GLOBAL CANCEL, Clear Orders buttons
+* **Orders**
+    * New Order, Global Cancel, Refresh Live Orders and Trade Log buttons
+	* Safety check for Global Cancel
+	* New Order pop-up window with Basic Order, Extended Attributes, Volatility, Scale and IB Algo settings options including facility to Check Margin
     * Next Order-ID in-sync with IB Gateway
-    * Open Orders and Order Status tab
-    * Cancel Order by right-click on Open Orders
+    * Live Orders and Trade Log tab
+    * Modify or Cancel Order by right-click in Live Orders
 
     ![Orders](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/tab_orders.png)
-
-<br>
-
-* **Executions**
-    * Executions request settings
-    * Request Executions and Clear Executions button
-    * Reports tab
-
-    ![Executions](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/tab_executions.png)
+	
+	![New Order](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/tab_orders_neworder.png)
 
 <br>
     
@@ -158,23 +155,34 @@ This provides a simplified user-interface and connectivity to Interactive Broker
 ###The Chartist
 This provides a user-interface to alter settings for trading using [**The Chartist**](https://www.thechartist.com.au)'s [**US Power Setups**](https://www.thechartist.com.au/Benefits/short-term-share-trading.html) and to perform one-click trading. All settings are stored locally on your computer, using strong encryption where required. Every time the application is loaded, these settings are retrieved for your convenience.
 
+* Select your trading strategy from a drop-down menu
+<br>
+
+
+* **Web Settings**
+    * Your login details for **The Chartist**'s [US Power Setups](https://www.thechartist.com.au/Benefits/short-term-share-trading.html)
+<br>
+
+	
 * **Trade Settings**
    * Set paths for downloaded files
    * Manage your trade details such as exchange, position size, margin, etc.
-
 <br>
-   
-* **The Chartist Login**
-    * Your login details for **The Chartist**'s [US Power Setups](https://www.thechartist.com.au/Benefits/short-term-share-trading.html)
 
 <br>
 
-* **Report Settings**
+* **Report Settings** [Optional Settings]
     * Set your **To** and **From** email and its mail settings for report delivery
 
 <br>
+
+* ** Advanced** [Optional Settings]
+    * Set maximum positions for Active Monitoring, etc
+
+<br>
+
     
-* **Process**
+* **One-Click Process**
     * One-Click processing for downloading, order management, placing orders and report generation
 
 <br>
@@ -183,7 +191,7 @@ This provides a user-interface to alter settings for trading using [**The Charti
 	* List of day's orders and log diary of orders
 	* Process log to keep you up-to-date on the current process pipeline
  
-  ![Auto Trade](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/tab_tc.png)
+  ![Auto Trade](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/tab_autotrade.png)
 
 <br>
 * **Safety Checks**
@@ -197,6 +205,10 @@ This provides a user-interface to alter settings for trading using [**The Charti
 	* Your portfolio OPEN positions are matched with [The Chartist](https://www.thechartist.com.au)'s OPEN positions:
 		* if your portfolio has an OPEN position that [The Chartist](https://www.thechartist.com.au) does not have, then a SELL order is generated to close that position
 		* if your portfolio **does not** have an OPEN position that [The Chartist](https://www.thechartist.com.au) has, then **BUY ORDER IS NOT GENERATED**
+	* Active Monitoring: 
+	    * Will perform *Active Monitoring* if **Max. Pos** is greater than **0**
+        * *Active Monitoring* will Cancel unfilled orders if number of filled orders reach your maximum imposed limited
+        * *Active Monitoring* will generate and place SELL orders if number of filled orders exceed your maximum imposed limit.The filled orders that are to be replaced on the market as SELL orders are selected based on their time-stamps i.e. last filled orders are placed as SELL orders first.   		
   
   
 :arrow_double_up: [Back to Top](#table-of-contents)
