@@ -383,7 +383,6 @@ These settings need to be set once and are saved locally for future use.
   * **Allocation**: 100% (default). The percentage of capital you wish to auto-trade with. For example, if you have USD 100K, and set **Allocation** as 60%, then only USD 60K will be used for auto-trade
   * **Position Size**: 6.5% (default). The percentage of allocated capital per position
   * **Max. Amount**: 2000000 (default). Any high number you wish, this is used to make sure no *crazy* orders are placed on the market
-  
   * **The Chartist Sheet**: Do not change these settings, these are supposed to be constants for each strategy
      * **Market**:  NASDAQ( default). The exchange this auto-trade will be working on
      * **Currency**: USD (default). The currency this auto-trade will be utilising
@@ -462,7 +461,7 @@ During the execution of this process, Internet Explorer will open automatically 
 WARNING: DO NOT FORCIBLY CLOSE INTERNET EXPLORER WHILE THE PROCESS IS RUNNING.
 </p>
  
-* Go to**Auto Trade** :arrow_right: **Settings** tab
+* Go to **Auto Trade** :arrow_right: **Settings** tab
 * Click **One-Click Process**
 * And that's it!
 
