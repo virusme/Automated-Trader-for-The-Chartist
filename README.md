@@ -155,20 +155,19 @@ This provides a simplified user-interface and connectivity to Interactive Broker
 ###The Chartist
 This provides a user-interface to alter settings for trading using [**The Chartist**](https://www.thechartist.com.au)'s [**US Power Setups**](https://www.thechartist.com.au/Benefits/short-term-share-trading.html) and to perform one-click trading. All settings are stored locally on your computer, using strong encryption where required. Every time the application is loaded, these settings are retrieved for your convenience.
 
-* Select your trading strategy from a drop-down menu
+
+* Select your trading strategy from a drop-down menu [The Chartist]
 <br>
 
 
-* **Web Settings**
+* **Web Settings** [The Chartist]
     * Your login details for **The Chartist**'s [US Power Setups](https://www.thechartist.com.au/Benefits/short-term-share-trading.html)
 <br>
 
 	
-* **Trade Settings**
+* **Trade Settings** [The Chartist]
    * Set paths for downloaded files
    * Manage your trade details such as exchange, position size, margin, etc.
-<br>
-
 <br>
 
 * **Report Settings** [Optional Settings]
@@ -176,12 +175,11 @@ This provides a user-interface to alter settings for trading using [**The Charti
 
 <br>
 
-* ** Advanced** [Optional Settings]
+* **Advanced** [Optional Settings]
     * Set maximum positions for Active Monitoring, etc
 
 <br>
 
-    
 * **One-Click Process**
     * One-Click processing for downloading, order management, placing orders and report generation
 
@@ -236,7 +234,7 @@ This provides a user-interface to alter settings for trading using [**The Charti
 
 >**Note**:
 > * License keys are emailed to your email address when you downloaded the software.
-> * It is not mandatory to input the license key. However, **The Chartist** auto-trade facility will be only be activated for valid licenses. In case of invalid license key, you will have access to all other facility i.e. Interactive Brokers Gateway interface, but not **The Chartist** auto-trade facility. You will have the option of activating **The Chartist** auto-trade option using **Activate The Chartist** button on the **Connection** tab.
+> * It is not mandatory to input the license key. However, **Auto Trade** facility will be only be activated for valid licenses. In case of invalid license key, you will have access to all other facility i.e. Interactive Brokers Gateway interface, but not **Auto Trade** facility. You will have the option of activating **Auto Trade** option using **Activate Auto Trade** button on the **Connection** tab.
 
 :arrow_double_up: [Back to Top](#table-of-contents)
 
@@ -247,7 +245,7 @@ This provides a user-interface to alter settings for trading using [**The Charti
 ### Connect to IB gateway
 * Log in to your IB account via IB Gateway or Trader Workstation
 * Go to **Connection** tab
-* Click **Connect** (usually the default setting provided will work, unless IB TWS/Gateway API settings are different to default setting)
+* Click **Connect** (the default setting provided will work, unless IB TWS/Gateway API settings are different to default setting)
 
 ![connect](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/2_connect.png)
 
@@ -266,6 +264,7 @@ This provides a user-interface to alter settings for trading using [**The Charti
 
 ### Subscribe to account information
 * Go to **Account** tab
+* Select account using **Select Account** drop-down menu
 * Click **Subscribe**
 
 ![account](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/2_subscribe.png)
@@ -292,9 +291,10 @@ This provides a user-interface to alter settings for trading using [**The Charti
 
 
 ### Place or modify orders
-* Go to **Orders** tab
-* Click **Place/Modify Order**
-* A pop dialog opens up where you can enter your order details and click **Place/Modify Order**
+* Go to **Order** tab
+* Click **New Order**
+* A **Order** pop dialog opens up where you can enter your order details and click **Send**
+    * Changes to Extended Attributes, Volatility, Scale and IB Algo settings can be performed in this pop-up dialog
 
 ![placeorder](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/2_place_orders.png)
 
@@ -304,29 +304,11 @@ This provides a user-interface to alter settings for trading using [**The Charti
 <br>
 <br>
 
-
-#### Changing extended ticker attributes
-* Go to **Orders** :arrow_right: **Place/Modify Order**
-* Click **Ext. Ticker Attr.**
-* Make changes if required and click **Apply**
-
-![placeorder_extticker](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/2_place_orders_extticker.png)
-
-<br>
-
-#### Changing extended order attributes
-* Go to **Orders** :arrow_right: **Place/Modify Order**
-* Click **Ext. Order Attr.**
-* Make changes if required and click **Apply**
-
-![placeorder_extorder](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/2_place_orders_extorders.png)
-
-
 >**Note**:
->* For definition and description of each of the parameters in ticker attributes or order attributes please visit [Interactive Brokers knowledge base](https://ibkb.interactivebrokers.com/)
->* Default settings work fine for day orders
+>* For definition and description of each of the parameters in Basic Order, Extended Attributes, Volatility, Scale and IB Algo settings, please visit [Interactive Brokers knowledge base](https://ibkb.interactivebrokers.com/)
+>* Default settings should work fine for day orders
 >* Every time **Apply** is clicked, the settings are saved automatically for future use. These settings are retrieved whenever the application is loaded, for your convenience.
->* **GLOBAL CANCEL** cancels all open orders in one go.
+>* **GLOBAL CANCEL** cancels all open orders in one go. However, a confirmation dialog will pop-up as a safety check.
 
 
 :arrow_double_up: [Back to Top](#table-of-contents)
