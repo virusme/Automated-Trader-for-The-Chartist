@@ -317,9 +317,10 @@ This provides a user-interface to alter settings for trading using [**The Charti
 <br>
 
 
-### Cancel orders
-* Go to **Orders** :arrow_right: **Open Orders** tab
-* Right click on the order that you wish to cancel and select **Cancel Order**
+### Modify / Cancel orders
+* Go to **Order** :arrow_right: **Live Orders** tab
+* Right click on the order that you wish to modify or cancel and select either **Modify Order** or **Cancel Order**
+* **Order** dialog will pop-up with all details already populated for you to cross-check and **Send**
 
 ![placeorder_cancel](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_placed_order_cancel.png)
 
@@ -329,16 +330,8 @@ This provides a user-interface to alter settings for trading using [**The Charti
 <br>
 <br>
 
-
-### Check executions
-* Go to **Executions** tab
-* Click **Request Executions**
-* In case, you want to retreive the execution report of a particular order, use the form provided to fill in the details before clicking **Request Executions**
-
-![reqexe](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/2_reqexecutions.png)
-
 >**Note**:
->* Interactive Brokers provide execution report for the day (24 hours) and the **Report** table is always in-sync with IB data. Therefore, in most cases you will rarely have to **Request Executions** as they are delivered to this software as and when IB reports it.
+>* Interactive Brokers provide execution report for the day (24 hours) and the **Live Orders** and **Trade Log** table is always in-sync with IB data i.e. they are delivered to this software as and when IB reports it.
 
 
 :arrow_double_up: [Back to Top](#table-of-contents)
