@@ -301,10 +301,6 @@ This provides an user-interface to alter settings for trading using [**The Chart
 
 ![placeorder](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/2_place_orders.png)
 
-
-:arrow_double_up: [Back to Top](#table-of-contents)
-
-<br>
 <br>
 
 >**Note**:
@@ -327,10 +323,6 @@ This provides an user-interface to alter settings for trading using [**The Chart
 
 ![placeorder_cancel](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_placed_order_cancel.png)
 
-
-:arrow_double_up: [Back to Top](#table-of-contents)
-
-<br>
 <br>
 
 >**Note**:
@@ -458,6 +450,9 @@ IMPORTANT: Automated Trader must stay connected to IB Gateway/TWS as long as the
 >**Note**:
 >* **Active Monitoring** is always ENABLED
 >* Set **Max. Positions** to **0** if you do not want software to perform active monitoring
+
+
+:arrow_double_up: [Back to Top](#table-of-contents)
 
 
 <br>
