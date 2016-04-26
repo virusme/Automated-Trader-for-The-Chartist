@@ -448,7 +448,7 @@ These settings will be used for **Active Monitoring**. You can set the maximum n
 * Set **Max. Positions** and click **Apply**
 
 <p align="center">
-IMPORTANT: Automated Trader must stay connected to IB Gateway/TWS for as long as the market is open in order for **Active Monitoring** to work.
+IMPORTANT: Automated Trader must stay connected to IB Gateway/TWS for as long as the market is open in order for <b>Active Monitoring</b> to work.
 </p>
 
 
