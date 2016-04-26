@@ -179,7 +179,7 @@ This provides an user-interface to alter settings for trading using [**The Chart
 <br>
 * **Active Monitoring** [Optional Settings]
     * Displays number of **Max. Positions** and number of **Filled** positions
-	* Automated Trader must stay connected to IB Gateway/TWS for as long as the market is open in order for **Active Monitoring** to work
+	* Automated Trader must stay connected to IB Gateway/TWS as long as the market is open for **Active Monitoring** to work
 	
 <br>
 
@@ -448,7 +448,7 @@ These settings will be used for **Active Monitoring**. You can set the maximum n
 * Set **Max. Positions** and click **Apply**
 
 <p align="center">
-IMPORTANT: Automated Trader must stay connected to IB Gateway/TWS for as long as the market is open in order for <b>Active Monitoring</b> to work.
+IMPORTANT: Automated Trader must stay connected to IB Gateway/TWS as long as the market is open for <b>Active Monitoring</b> to work.
 </p>
 
 
