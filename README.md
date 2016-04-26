@@ -112,7 +112,7 @@ This provides a simplified user-interface and connectivity to Interactive Broker
     
 * **Account** 
     * Select Account from drop-down menu
-	* Subscribe/Unsubscribe toggle button and Clear Account Summary buttons
+	* Subscribe/Unsubscribe toggle button and Clear Account Info buttons
     * Account number indicator
     * Last sync time indicator
     * Summary and Portfolio tabs
@@ -137,7 +137,7 @@ This provides a simplified user-interface and connectivity to Interactive Broker
 <br>
     
 * **Settings**
-   * All settings i.e. connection, ticker and order settings saved in an XML file (ibSet.xml)
+   * All settings i.e. connection, contract and order settings saved in an XML file (ibSet.xml)
    * Every time the application loads, it will retrieve settings from the settings XML file
 
 <br>
@@ -153,7 +153,7 @@ This provides a simplified user-interface and connectivity to Interactive Broker
 <br>
 
 ### Auto Trade
-This provides a user-interface to alter settings for trading using [**The Chartist**](https://www.thechartist.com.au)'s [**US Power Setups**](https://www.thechartist.com.au/Benefits/short-term-share-trading.html) and to perform one-click trading. All settings are stored locally on your computer, using strong encryption where required. Every time the application is loaded, these settings are retrieved for your convenience.
+This provides an user-interface to alter settings for trading using [**The Chartist**](https://www.thechartist.com.au)'s [**US Power Setups**](https://www.thechartist.com.au/Benefits/short-term-share-trading.html) and to perform one-click trading. All settings are stored locally on your computer, using strong encryption where required. Every time the application is loaded, these settings are retrieved for your convenience.
 
 
 * Select your trading strategy from a drop-down menu [The Chartist]
@@ -174,6 +174,13 @@ This provides a user-interface to alter settings for trading using [**The Charti
 
 * **Advanced** [Optional Settings]
     * Set maximum positions for Active Monitoring, etc
+<br>
+
+<br>
+* **Active Monitoring** [Optional Settings]
+    * Displays number of **Max. Positions** and number of **Filled** positions
+	* Automated Trader must stay connected to IB Gateway/TWS for as long as the market is open in order for **Active Monitoring** to work
+	
 <br>
 
 * **One-Click Process**
@@ -434,11 +441,15 @@ The data provided here will be used for generating and saving reports, as well a
 <br>
 
 ### Auto Trade: Advanced
-These settings will be used for **Active Monitoring**. You can set the maximum number of positions that you want filled and **Active Monitoring** will ensure that no more than maximum positions are filled.
+These settings will be used for **Active Monitoring**. You can set the maximum number of positions that you want filled and **Active Monitoring** will ensure that no more than maximum positions are filled. 
 
 * Go to **Auto Trade** :arrow_right: **Settings** tab* 
 * Click **Advanced**
 * Set **Max. Positions** and click **Apply**
+
+<p align="center">
+IMPORTANT: Automated Trader must stay connected to IB Gateway/TWS for as long as the market is open in order for **Active Monitoring** to work.
+</p>
 
 
 ![tc_report](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_advanced.png)
