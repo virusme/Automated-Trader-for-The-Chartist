@@ -219,8 +219,14 @@ This provides an user-interface to alter settings for trading using [**The Chart
 
 ## How To
 
-### Set Up
+Have you previously activated your license key?
 
+YES - Go to [Software Update](#software-update)
+NO - Go to [Fresh Activation] (#fresh-activation)
+
+### Fresh Activation
+  Perform a fresh set-up only if you have an _unactivated_ license key. You will not be able to perform a fresh setup using an activated license key
+  
 #### Install
 * You will download a **.zip** from the [download area](#download)
 * Extract the **.zip** file to your chosen location, a new folder titled **TPT Automated Trader** will be created. For example, I have extracted the **.zip** to **D:\** drive
@@ -234,6 +240,17 @@ This provides an user-interface to alter settings for trading using [**The Chart
 * Enter license key when prompted
 
 ![license_key](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/firstrun_key_2.png)
+
+
+### Software UPDATE
+  Perform a software update if you previously _activated_ your license key.
+  
+#### Update
+* You will download a **.zip** from the [download area](#download)
+* Extract the **.zip** file to your chosen location, a new folder titled **TPT Automated Trader** will be created.
+* Copy the updated version of **TradingAutomation.exe** to your already existing folder that contains the old version of TradingAutomation.exe
+
+
 
 >**Note**:
 > * License keys are emailed to your email address when you downloaded the software.
