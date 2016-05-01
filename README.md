@@ -219,10 +219,13 @@ This provides an user-interface to alter settings for trading using [**The Chart
 
 ## How To
 
-Have you previously activated your license key?
+**Have you previously activated your license key?
 
 YES - Go to [Software Update](#software-update)
-NO - Go to [Fresh Activation] (#fresh-activation)
+
+NO - Go to [Fresh Activation] (#fresh-activation)**
+
+<br>
 
 ### Fresh Activation
   Perform a fresh set-up only if you have an _unactivated_ license key. You will not be able to perform a fresh setup using an activated license key
@@ -241,11 +244,11 @@ NO - Go to [Fresh Activation] (#fresh-activation)
 
 ![license_key](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/firstrun_key_2.png)
 
+<br>
 
 ### Software UPDATE
-  Perform a software update if you previously _activated_ your license key.
-  
-#### Update
+  Perform a software update if you have previously _activated_ your license key.
+
 * You will download a **.zip** from the [download area](#download)
 * Extract the **.zip** file to your chosen location, a new folder titled **TPT Automated Trader** will be created.
 * Copy the updated version of **TradingAutomation.exe** to your already existing folder that contains the old version of TradingAutomation.exe
