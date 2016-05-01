@@ -52,9 +52,11 @@ Table of Contents
     - [Interactive Brokers (IB) connectivity](#interactive-brokers-ib-connectivity)
     - [Auto Trade](#auto-trade)
   - [How To](#how-to)
-    - [Set Up](#set-up)
+	- [Have you previously activated your license key?](#have-you-previously-activated-your-license-key?)
+	- [Fresh Activation](#fresh-activation)
       - [Install](#install)
       - [First Run](#first-run)
+	- [Software Update](#software-update)
     - [Connect to IB gateway](#connect-to-ib-gateway)
     - [Subscribe to account information](#subscribe-to-account-information)
     - [Close open positions](#close-open-positions)
@@ -219,7 +221,7 @@ This provides an user-interface to alter settings for trading using [**The Chart
 
 ## How To
 
-**Have you previously activated your license key?**
+### Have you previously activated your license key?
 
 **YES - Go to [Software Update](#software-update)**
 
@@ -228,7 +230,7 @@ This provides an user-interface to alter settings for trading using [**The Chart
 <br>
 
 ### Fresh Activation
-  Perform a fresh set-up only if you have an _unactivated_ license key. You will not be able to perform a fresh setup using an activated license key
+  Perform a fresh activation only if you have an _unactivated_ license key. You will not be able to perform a fresh activation using an activated license key
   
 #### Install
 * You will download a **.zip** from the [download area](#download)
