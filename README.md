@@ -219,11 +219,11 @@ This provides an user-interface to alter settings for trading using [**The Chart
 
 ## How To
 
-**Have you previously activated your license key?
+**Have you previously activated your license key?**
 
-YES - Go to [Software Update](#software-update)
+**YES - Go to [Software Update](#software-update)**
 
-NO - Go to [Fresh Activation] (#fresh-activation)**
+**NO - Go to [Fresh Activation] (#fresh-activation)**
 
 <br>
 
@@ -244,9 +244,14 @@ NO - Go to [Fresh Activation] (#fresh-activation)**
 
 ![license_key](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/firstrun_key_2.png)
 
+>**Note**:
+> * License keys are emailed to your email address when you downloaded the software.
+> * It is not mandatory to input the license key. However, **Auto Trade** facility will be only be activated for valid licenses. In case of invalid license key, you will have access to all other facility i.e. Interactive Brokers Gateway interface, but not **Auto Trade** facility. You will have the option of activating **Auto Trade** option using **Activate Auto Trade** button on the **Connection** tab.
+
+
 <br>
 
-### Software UPDATE
+### Software Update
   Perform a software update if you have previously _activated_ your license key.
 
 * You will download a **.zip** from the [download area](#download)
@@ -254,10 +259,6 @@ NO - Go to [Fresh Activation] (#fresh-activation)**
 * Copy the updated version of **TradingAutomation.exe** to your already existing folder that contains the old version of TradingAutomation.exe
 
 
-
->**Note**:
-> * License keys are emailed to your email address when you downloaded the software.
-> * It is not mandatory to input the license key. However, **Auto Trade** facility will be only be activated for valid licenses. In case of invalid license key, you will have access to all other facility i.e. Interactive Brokers Gateway interface, but not **Auto Trade** facility. You will have the option of activating **Auto Trade** option using **Activate Auto Trade** button on the **Connection** tab.
 
 :arrow_double_up: [Back to Top](#table-of-contents)
 
