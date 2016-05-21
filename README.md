@@ -220,7 +220,8 @@ This provides an user-interface to alter settings for trading using [**The Chart
 >**Shuffled BUY Orders**:
 >* For a non-margin account holder, you will only be allowed to place orders if you have enough capital. For example, with position size of $5K, and an account capital of $100K, you will be allowed to have 20 positions. Lets say, you already have 10 open positions, in which case, you are allowed to place 10 new BUY orders and anything more than 10 BUY orders will be cancelled or rendered inactive immediately.
 >* Of course, this poses a problem if you want to trade The Chartist's US HFT because everyday there will be many BUY orders. If The Chartist's BUY orders are placed as is, then considering the example above, only the first 10 BUY orders will be accepted and the rest will be rejected. Therefore you may not be getting the best deal in terms of stock-picks for those first 10 BUY orders.
->* However, by **Shuffling** BUY orders, the first 10 BUY orders will now be composed of a good mix of stocks from entire list of The Chartist's BUY orders, giving you the non-margin account holder a better chance.
+>* However, by **Shuffling** BUY orders, the first 10 BUY orders will now be composed of a good mix of stocks from entire list of The Chartist's BUY orders, giving you, the non-margin account holder, a better chance.
+>* Shuffling is enabled only for The Chartist's US HFT strategy.
  
   
 :arrow_double_up: [Back to Top](#table-of-contents)
