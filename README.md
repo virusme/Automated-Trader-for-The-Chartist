@@ -11,7 +11,8 @@ Automated Trader for The Chartist
 * Always in-sync with Interactive Brokers servers
 * Ease of use
 * One click process for downloading, processing, placing and reporting of **The Chartist**'s [US Power Setups](https://www.thechartist.com.au/Benefits/short-term-share-trading.html) (activation license key required)
-* Active monitoring of placed orders
+* Active monitoring of placed orders (useful if you are using Margin account)
+* Order Shuffling (useful if you are using Non-Margin account)
 * Facility to place delayed orders [*coming soon*]
 * Set and forget hands-free feature for performing the one-click process automatically everyday at a designated time [*disabled feature*]
 
@@ -117,8 +118,8 @@ This provides a simplified user-interface and connectivity to Interactive Broker
 	* Subscribe/Unsubscribe toggle button and Clear Account Info buttons
     * Account number indicator
     * Last sync time indicator
-    * Summary and Portfolio tabs
-    * Close Position by right-click in Portfolio
+    * Summary, Portfolio and Open Positions tabs
+    * Close Position by right-click in Portfolio and Open Positions tab
 
     ![Account](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/tab_account.png)
 
@@ -208,11 +209,19 @@ This provides an user-interface to alter settings for trading using [**The Chart
 	* Your portfolio OPEN positions are matched with [The Chartist](https://www.thechartist.com.au)'s OPEN positions:
 		* if your portfolio has an OPEN position that [The Chartist](https://www.thechartist.com.au) does not have, then a SELL order is generated to close that position
 		* if your portfolio **does not** have an OPEN position that [The Chartist](https://www.thechartist.com.au) has, then **BUY ORDER IS NOT GENERATED**
-	* **Active Monitoring**: 
+	* All BUY orders are **Shuffled**. Therefore, if you hold a non-margin trading account your first few BUY orders will have a good mix of BUY orders from the entire list of The Chartist's BUY orders. [Read Note below]
+	* **Active Monitoring**:
+		* Useful for Margin account holders
 	    * Will perform **Active Monitoring** if **Max. Pos** is greater than **0**
-        * **Active Monitoring** will Cancel unfilled orders if number of filled orders reach your maximum imposed limited
-        * **Active Monitoring** will generate and place SELL orders if number of filled orders exceed your maximum imposed limit.The filled orders that are to be replaced on the market as SELL orders are selected based on their time-stamps i.e. last filled orders are placed as SELL orders first.   		
+        * **Active Monitoring** will Cancel unfilled BUY orders if number of filled orders reach your maximum imposed limited
+        * **Active Monitoring** will generate and place SELL orders if number of filled orders exceed your maximum imposed limit.The filled BUY orders that are to be replaced on the market as SELL orders are selected based on their time-stamps i.e. last filled orders are placed as SELL orders first.   		
   
+  
+>**Shuffled BUY Orders**:
+>* For a non-margin account holder, you will only be allowed to place orders if you have enough capital. For example, with position size of $5K, and an account capital of $100K, you will be allowed to have 20 positions. Lets say, you already have 10 open positions, in which case, you are allowed to place 10 new BUY orders and anything more than 10 BUY orders will be cancelled or rendered inactive immediately.
+>* Of course, this poses a problem if you want to trade The Chartist's US HFT because everyday there will be many BUY orders. If The Chartist's BUY orders are placed as is, then considering the example above, only the first 10 BUY orders will be accepted and the rest will be rejected. Therefore you may not be getting the best deal in terms of stock-picks for those first 10 BUY orders.
+>* However, by **Shuffling** BUY orders, the first 10 BUY orders will now be composed of a good mix of stocks from entire list of The Chartist's BUY orders, giving you the non-margin account holder a better chance.
+ 
   
 :arrow_double_up: [Back to Top](#table-of-contents)
 
