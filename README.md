@@ -198,7 +198,7 @@ This provides an user-interface to alter settings for trading using [**The Chart
   ![Auto Trade](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/tab_autotrade.png)
 
 <br>
-* **Safety Checks**
+* **Safety Checks & Intelligent Features**
 	* [The Chartist](https://www.thechartist.com.au)'s trades are never processed more than once
 	* Account capital is always retrieved based on the currency settings
 	* Check for duplicate orders
