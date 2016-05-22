@@ -313,7 +313,7 @@ This provides an user-interface to alter settings for trading using [**The Chart
 
 
 ### Close open positions
-* Go to **Account** :arrow_right: **Portfolio** tab
+* Go to **Account** :arrow_right: **Portfolio** tab or **Open Positions** tab
 * Right-click on the open position that you intend to close
 * Click **Close Position**
 
