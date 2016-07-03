@@ -555,7 +555,7 @@ The report that will generated and emailed would consist of:
 
 * *Summary*: Summary of your account and placed orders
 * *Process Log*: Process log of auto-trade
-* *Log Diary*: Daily log of number of buy, sell, open positions and comments
+* *Log Diary*: Daily log of number of buy, sell, open positions, equity, comments and file used
 * *Orders*: The Chartist orders for the day
 * *Portfolio*: A snapshot of your portfolio at the time of processing
 * *API Error Logs*: Error log from the IB server
