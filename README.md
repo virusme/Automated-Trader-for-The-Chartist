@@ -184,7 +184,7 @@ This provides an user-interface to alter settings for trading using [**The Chart
 
 <br>
 * **Active Monitoring** [Optional Settings]
-    * Displays number of status of Active Monitoring and state of **Action**, **Max. Positions** and number of **Filled** positions
+    * Displays number of status of Active Monitoring and state of **Action**, number of **Max. Positions** and **Filled** positions
 	* Automated Trader must stay connected to IB Gateway/TWS as long as the market is open for **Active Monitoring** to work
 	
 <br>
