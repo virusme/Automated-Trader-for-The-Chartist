@@ -35,7 +35,7 @@ Visit [Automated Trader for The Chartist](http://www.theportfoliotrader.com/down
 > * License key will be generated and emailed to your email address. You will have to input this license key when prompted during the first run.
 > * **Active Monitoring**: Current implementation only Cancels remaining BUY orders if the condition is satisfied. Users should be aware that it currently does not SELL excess filled orders.
 > * **Use first on your Paper Trading account**: We advise users to first use this software on their demo or paper trading account and transition to actual trading account only after they are convinced that the software is doing what they expect the software to do.
-> * **Be aware that Active Monitoring might interfere with orders other than The Chartist's orders**
+> * **Be aware that Active Monitoring might interfere with orders other than The Chartist's orders if those other orders were placed via this software**
 > * In case you want to run this software on multiple computers then increase the number of license's required during the registration process or contact info@theportfoliotrader.com for assistance.
 > * Dependency on Internet Explorer is temporary, I have included it so that the user can visualise the website login and file access actions.
 > * _This application should run fine on LINUX and OS X/Mac OS via [Mono](http://www.mono-project.com/). Due to the dependency of this version on Internet Explorer it might be a difficult ask. I have not tested this thoroughly. Contact info@theportfoliotrader.com if you want me to perform a thorough testing on LINUX or OS X/Mac OS. Next version of this software will not have Internet Explorer dependency._
