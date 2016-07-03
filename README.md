@@ -33,7 +33,7 @@ Visit [Automated Trader for The Chartist](http://www.theportfoliotrader.com/down
 > **Note**:
 > * Please use a valid email address while registering to download the software.
 > * License key will be generated and emailed to your email address. You will have to input this license key when prompted during the first run.
-> * **Active Monitoring**: Current implementation only Cancels remaining BUY orders if the condition is satisfied. Users should be aware that it currently does not SELL excess filled orders.
+> * **Active Monitoring**: Current implementation only Cancels remaining BUY orders if the condition is satisfied. Users should be aware that it currently does not SELL excess filled orders. As the BUY orders are LMT orders, there is very low probability of number of filled positions exceeding the max. positions however do keep an eye out and manually liquidate excess filled positions whenever possible. Next version of the software will have the ability to automatically sell excess filled positions.
 > * **Use first on your Paper Trading account**: We advise users to first use this software on their demo or paper trading account and transition to actual trading account only after they are convinced that the software is doing what they expect the software to do.
 > * **Be aware that Active Monitoring might interfere with orders other than The Chartist's orders if those other orders were placed via this software**
 > * In case you want to run this software on multiple computers then increase the number of license's required during the registration process or contact info@theportfoliotrader.com for assistance.
