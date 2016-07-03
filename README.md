@@ -217,7 +217,7 @@ This provides an user-interface to alter settings for trading using [**The Chart
 		* Useful for Margin account holders
 	    * Will perform **Active Monitoring** if **Max. Pos** is greater than **0**
         * **Active Monitoring** will Cancel unfilled BUY orders if number of filled orders reach your maximum imposed limited
-        * **Yet to be implemented** _**Active Monitoring** will generate and place SELL orders if number of filled orders exceed your maximum imposed limit.The filled BUY orders that are to be replaced on the market as SELL orders are selected based on their time-stamps i.e. last filled orders are placed as SELL orders first._   		
+        * **Yet to be implemented** _(Active Monitoring to place SELL orders if number of filled orders exceed your maximum imposed limit. The filled BUY orders that are to be replaced on the market as SELL orders are selected based on their time-stamps i.e. last filled orders are placed as SELL orders first.)_   		
   
   
 >**Shuffled BUY Orders**:
