@@ -33,6 +33,9 @@ Visit [Automated Trader for The Chartist](http://www.theportfoliotrader.com/down
 > **Note**:
 > * Please use a valid email address while registering to download the software.
 > * License key will be generated and emailed to your email address. You will have to input this license key when prompted during the first run.
+> * **Active Monitoring**: Current implementation only Cancels remaining BUY orders if the condition is satisfied. Users should be aware that it currently does not SELL excess filled orders.
+> * **Use first on your Paper Trading account**: We advise users to first use this software on their demo or paper trading account and transition to actual trading account only after they are convinced that the software is doing what they expect the software to do.
+> * **Be aware that Active Monitoring might interfere with orders other than The Chartist's orders**
 > * In case you want to run this software on multiple computers then increase the number of license's required during the registration process or contact info@theportfoliotrader.com for assistance.
 > * Dependency on Internet Explorer is temporary, I have included it so that the user can visualise the website login and file access actions.
 > * _This application should run fine on LINUX and OS X/Mac OS via [Mono](http://www.mono-project.com/). Due to the dependency of this version on Internet Explorer it might be a difficult ask. I have not tested this thoroughly. Contact info@theportfoliotrader.com if you want me to perform a thorough testing on LINUX or OS X/Mac OS. Next version of this software will not have Internet Explorer dependency._
@@ -181,7 +184,7 @@ This provides an user-interface to alter settings for trading using [**The Chart
 
 <br>
 * **Active Monitoring** [Optional Settings]
-    * Displays number of **Max. Positions** and number of **Filled** positions
+    * Displays number of status of Active Monitoring and state of **Action**, **Max. Positions** and number of **Filled** positions
 	* Automated Trader must stay connected to IB Gateway/TWS as long as the market is open for **Active Monitoring** to work
 	
 <br>
@@ -214,7 +217,7 @@ This provides an user-interface to alter settings for trading using [**The Chart
 		* Useful for Margin account holders
 	    * Will perform **Active Monitoring** if **Max. Pos** is greater than **0**
         * **Active Monitoring** will Cancel unfilled BUY orders if number of filled orders reach your maximum imposed limited
-        * **Active Monitoring** will generate and place SELL orders if number of filled orders exceed your maximum imposed limit.The filled BUY orders that are to be replaced on the market as SELL orders are selected based on their time-stamps i.e. last filled orders are placed as SELL orders first.   		
+        * **Yet to be implemented** _**Active Monitoring** will generate and place SELL orders if number of filled orders exceed your maximum imposed limit.The filled BUY orders that are to be replaced on the market as SELL orders are selected based on their time-stamps i.e. last filled orders are placed as SELL orders first._   		
   
   
 >**Shuffled BUY Orders**:
@@ -481,7 +484,8 @@ IMPORTANT: Automated Trader must stay connected to IB Gateway/TWS as long as the
 
 
 >**Note**:
->* **Active Monitoring** is always ENABLED
+>* When the application is first connected and subscribed to account information via IB Gateway, **Active Monitoring** will perform its monitoring and the status of **Action** will be changed to **Taken**.  
+>* **Active Monitoring** is always ENABLED. To DISABLE **Active Monitoring** set **Max. Positions** to **-1**
 >* Set **Max. Positions** to **0** if you do not want software to perform active monitoring
 
 
@@ -533,7 +537,7 @@ To View details of order management and daily orders:
 
 To View details of daily logs:
 * Go to **Auto Trade** :arrow_right: **Log Diary**
-
+* **Log Diary** has a column for **Equity** to help you keep track of performance
 ![tc_logdiary](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_logdiary.png)
 
 
