@@ -570,7 +570,7 @@ Above is an example of the report-email format:
 
 >**Note**:
 >* The reports are also saved on your local computer in the directory where this application resides under **reports** directory
->* Reports are organised in **MMYYYY** folder with **[StrategyName]_ddMMYYY.xlsx** format, for example report for **US HFT** on **19th February 2016** will be under **reports/022016/** and the file name would be **US_HFT_19022016.xlsx**
+>* Reports are organised in **MMYYYY** folder with **[StrategyName]_ddMMYYYY.xlsx** format, for example report for **US HFT** on **19th February 2016** will be under **reports/022016/** and the file name would be **US_HFT_19022016.xlsx**
 
 
 :arrow_double_up: [Back to Top](#table-of-contents)
