@@ -267,11 +267,16 @@ This provides an user-interface to alter settings for trading using [**The Chart
 <br>
 
 ### Software Update
-  Perform a software update if you have previously _activated_ your license key.
-
+  Perform a software update if you have previously _activated_ your license key. 
+  
+  Updating the software is very simple procedure, you will have to replace your old version of **TradingAutomation.exe** with the newly downloaded version of **TradingAutomation.exe**. If you are unsure how to do this, then follow the steps given below:
+* Go to the folder on your computer where **TradingAutomation.exe** file is located. For example: C:\my_software\TPT Automated Trader 
+* Delete **TradingAutomation.exe** file.
+* Do not delete anything else, its necessary to retain folders **utilities**, etc
 * You will download a **.zip** from the [download area](#download)
-* Extract the **.zip** file to your chosen location, a new folder titled **TPT Automated Trader** will be created.
-* Copy the updated version of **TradingAutomation.exe** to your already existing folder that contains the old version of TradingAutomation.exe
+* Extract the contents of the **.zip** file to a location on your computer that is other than the location of your current version of Automated Trader. For example: C:downloads\[UNZIPPED FILE CONTENTS] 
+* Copy the updated version of **TradingAutomation.exe** from C:\downloads\[UNZIPPED FILE CONTENTS] to your already existing folder (C:\my_software\TPT Automated Trader) that contains the old version of TradingAutomation.exe
+* You have now updated the software! 
 
 
 
