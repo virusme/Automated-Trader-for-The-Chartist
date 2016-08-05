@@ -10,6 +10,7 @@ Automated Trader for The Chartist
 * Facility to handle multiple trading accounts
 * Always in-sync with Interactive Brokers servers
 * Ease of use
+* Host of customisable options
 * One click process for downloading, processing, placing and reporting of **The Chartist**'s [US Power Setups](https://www.thechartist.com.au/Benefits/short-term-share-trading.html) (activation license key required)
 * Active monitoring of placed orders (useful if you are using Margin account)
 * Order Shuffling (useful if you are using Non-Margin account)
@@ -171,7 +172,7 @@ This provides an user-interface to alter settings for trading using [**The Chart
 	
 * **Trade Settings** [The Chartist]
    * Set paths for downloaded files
-   * Manage your trade details such as exchange, position size, margin, etc.
+   * Manage your trade settings for strategy such as leverage, position size, equity currency, etc.
 <br>
 
 * **Report Settings** [Optional Settings]
@@ -194,7 +195,7 @@ This provides an user-interface to alter settings for trading using [**The Chart
 <br>
 
 * **Orders, Log Diary and Log**
-	* List of day's orders and log diary of orders
+	* Order managerment details, list of day's orders and log diary of orders
 	* Process log to keep you up-to-date on the current process pipeline
  
  
@@ -203,7 +204,7 @@ This provides an user-interface to alter settings for trading using [**The Chart
 <br>
 * **Safety Checks & Intelligent Features**
 	* [The Chartist](https://www.thechartist.com.au)'s trades are never processed more than once
-	* Account capital is always retrieved based on the currency settings
+	* Account capital is always retrieved based on the equity currency settings i.e. you could trade with your AUD equity on NASDAQ directly 
 	* Check for duplicate orders
 	* BUY order will not be placed if an OPEN position already exists in your portfolio
 	* SELL order will not placed if an OPEN position does not exist in your portfolio (No Short Selling)
@@ -406,7 +407,7 @@ The login and password provided here will be used to login to https://www.thecha
 
 
 ### Auto Trade: Trade Settings 
-The data provided in this setting will be used by auto-trader for determining your choice of security type, exchange, position size, etc.
+The data provided in this setting will be used by auto-trader for determining your choice of position size, equity currency, leverage, etc.
 These settings need to be set once and are saved locally for future use. 
 
 <br>
@@ -422,7 +423,9 @@ These settings need to be set once and are saved locally for future use.
   * **Leverage**: 1.0 (default). The leverage/margin you wish to use.
   * **Allocation**: 100% (default). The percentage of capital you wish to auto-trade with. For example, if you have USD 100K, and set **Allocation** as 60%, then only USD 60K will be used for auto-trade
   * **Position Size**: 6.5% (default). The percentage of allocated capital per position
+  * **Currency (Equity)**: Currency to be used to determine liquidation equity or capital for trading
   * **Max. Amount**: 2000000 (default). Any high number you wish, this is used to make sure no *crazy* orders are placed on the market
+  * **Market Prefix**: File prefix used by The Chartist for respective strategies
   * **The Chartist Sheet**: Do not change these settings, these are supposed to be constants for each strategy
      * **Market**:  NASDAQ( default). The exchange this auto-trade will be working on
      * **Currency**: USD (default). The currency this auto-trade will be utilising
@@ -433,7 +436,7 @@ These settings need to be set once and are saved locally for future use.
 
 >**Note**:
 >* Do not change settings under **The Chartist Sheet**, automated trader will not work if you change this setting
->* Standard Contract and Order attributes for trading [US Power Setups]() (both Original and HFT) is stored locally on your computer. They can be viewed by opening either _utilities/sys.xml_ or _utilities/hft.xml_ using a word-processor
+>* Standard Contract and Order attributes for trading [US Power Setups]() (both Original and HFT) is stored locally on your computer. They can be viewed by opening either _utilities/oriSet.xml_ or _utilities/hftSet.xml_ For US Original and US HFT , resectively, using a word-processor
 >* Every time **Apply** is clicked, the settings are saved for future use
 
 
