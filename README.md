@@ -10,7 +10,7 @@ Automated Trader for The Chartist
 * Facility to handle multiple trading accounts
 * Always in-sync with Interactive Brokers servers
 * Ease of use
-* Host of customisable options
+* Customisable options
 * One click process for downloading, processing, placing and reporting of **The Chartist**'s [US Power Setups](https://www.thechartist.com.au/Benefits/short-term-share-trading.html) (activation license key required)
 * Active monitoring of placed orders (useful if you are using Margin account)
 * Order Shuffling (useful if you are using Non-Margin account)
