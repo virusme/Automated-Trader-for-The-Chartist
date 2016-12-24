@@ -139,7 +139,7 @@ This provides a simplified user-interface and connectivity to Interactive Broker
 
     ![Orders](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/tab_orders.png)
 	
-	![New Order](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/tab_orders_neworder.png)
+	![New Order](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/win_neworder.png)
 
 <br>
     
@@ -244,7 +244,7 @@ This provides an user-interface to alter settings for trading using [**The Chart
 <br>
 
 ### Fresh Activation
-  Perform a fresh activation only if you have an _unactivated_ license key. You will not be able to perform a fresh activation using an activated license key
+  Perform a fresh activation only if you have an _unactivated_ license key. You will not be able to perform a fresh activation using an activated license key.
   
 #### Install
 * You will download a **.zip** from the [download area](#download)
@@ -268,6 +268,8 @@ This provides an user-interface to alter settings for trading using [**The Chart
 <br>
 
 ### Software Update
+  ???  NEED TO DOCUMENT HOW TO UPDATE FROM PREVIOUS VERSION WHERE UTILITIES FILES HAVE CHANGED ???
+  
   Perform a software update if you have previously _activated_ your license key. 
   
   Updating the software is a very simple procedure, you will have to replace your old version of **TradingAutomation.exe** with the newly downloaded version of **TradingAutomation.exe**. If you are unsure how to do this, then follow the steps given below:
@@ -292,14 +294,14 @@ This provides an user-interface to alter settings for trading using [**The Chart
 * Go to **Connection** tab
 * Click **Connect** (the default setting provided will work, unless IB TWS/Gateway API settings are different to default setting)
 
-![connect](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/2_connect.png)
+![connect](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/act_connect.png)
 
 >**Note**:
 > * [Instructions on to how to enable connectivity on your IB Gateway or Trader Workstation](https://github.com/virusme/Automated-Trader-for-NSE/wiki/IB-API-Settings) 
 > * IB Trader Workstation is a full-featured trading platform, it requires lots of memory and needs restart every 24 hours. Whereas IB Gateway is headless (no user-interface) connectivity to IB servers, it requires minimal memory and does not need restarts that often.
 > * To use with Automated Trader for The Chartist, I recommend IB Gateway because it is light-weight and does not need restarts
 >* Server and error logs provide a log of IB server requests and any error reports that IB Server reports or that arise due to connection with IB Server
-> ![servererr](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/2_servererrlogs.png)
+> ![servererr](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/vw_servererrlogs.png)
 
 
 :arrow_double_up: [Back to Top](#table-of-contents) 
@@ -312,7 +314,7 @@ This provides an user-interface to alter settings for trading using [**The Chart
 * Select account using **Select Account** drop-down menu
 * Click **Subscribe**
 
-![account](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/2_subscribe.png)
+![account](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/act_subscribe.png)
 
 
 :arrow_double_up: [Back to Top](#table-of-contents)
@@ -326,7 +328,7 @@ This provides an user-interface to alter settings for trading using [**The Chart
 * Right-click on the open position that you intend to close
 * Click **Close Position**
 
-![closepos](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/2_portfolio_closepos.png)
+![closepos](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/act_close_in_portfolio.png)
 
 
 :arrow_double_up: [Back to Top](#table-of-contents)
@@ -341,7 +343,7 @@ This provides an user-interface to alter settings for trading using [**The Chart
 * A **Order** pop dialog opens up where you can enter your order details and click **Send**
     * Changes to Extended Attributes, Volatility, Scale and IB Algo settings can be performed in this pop-up dialog
 
-![placeorder](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/2_place_orders.png)
+![placeorder](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/act_neworder.png)
 
 <br>
 
@@ -363,7 +365,7 @@ This provides an user-interface to alter settings for trading using [**The Chart
 * Right click on the order that you wish to modify or cancel and select either **Modify Order** or **Cancel Order**
 * **Order** dialog will pop-up with all details already populated for you to cross-check and **Send**
 
-![placeorder_cancel](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_placed_order_cancel.png)
+![placeorder_cancel](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/act_modify.png)
 
 <br>
 
@@ -385,7 +387,7 @@ Your selection of  strategy in this setting will be used by the auto-trader for 
 * Select a strategy from the drop-down menu as shown in the figure below
 
 
-![tc_select](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_select.png)
+![tc_select](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/act_select_strategy.png)
 
 <br>
 
@@ -398,7 +400,7 @@ The login and password provided here will be used to login to https://www.thecha
 * You should enter your login and password that you use to access **The Chartist**'s [US Power Setups](https://www.thechartist.com.au/Benefits/short-term-share-trading.html)
 * This data is stored locally on your computer using strong encryption for future use
 
-![tc_web](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_tclog.png)
+![tc_web](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/act_websettings.png)
 
 
 :arrow_double_up: [Back to Top](#table-of-contents)
@@ -432,11 +434,11 @@ These settings need to be set once and are saved locally for future use.
      * **Sec. Type**: STK (default). The security type this auto-trade will be trading
   
 
-![tc_trade](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_tcset.png)
+![tc_trade](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/act_tradesettings.png)
 
 >**Note**:
 >* Do not change settings under **The Chartist Sheet**, automated trader will not work if you change this setting
->* Standard Contract and Order attributes for trading [US Power Setups]() (both Original and HFT) is stored locally on your computer. They can be viewed by opening either _utilities/oriSet.xml_ or _utilities/hftSet.xml_ For US Original and US HFT , resectively, using a word-processor
+>* Standard Contract and Order attributes for trading [US Power Setups]() (both Original and HFT) is stored locally on your computer. They can be viewed by opening either _utilities/usoriginalSet.xml_ or _utilities/ushftSet.xml_ For US Original and US HFT , resectively, using a word-processor
 >* Every time **Apply** is clicked, the settings are saved for future use
 
 
@@ -464,7 +466,7 @@ The data provided here will be used for generating and saving reports, as well a
    * **To-Email Settings**
       * **To Email Address**: An email address that you may/may not own to which you want the email with report attached to be sent to
 
-![tc_report](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_repset.png)
+![tc_report](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/act_reprotsettings.png)
 
 >**Note**:
 >* To send an email, one needs an email address where the email originates (from-email) and a destination email (to-email)
@@ -488,7 +490,7 @@ IMPORTANT: Automated Trader must stay connected to IB Gateway/TWS as long as the
 </p>
 
 
-![tc_report](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_advanced.png)
+![tc_report](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/act_advancedsettings.png)
 
 
 >**Note**:
@@ -519,11 +521,11 @@ WARNING: DO NOT FORCIBLY CLOSE INTERNET EXPLORER WHILE THE PROCESS IS RUNNING.
 Figure below presents the auto-trade in action:
 
 <br>
-![tc_inaction](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_inaction.png)
+![tc_inaction](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/progress_autotrade.png)
 
 
 <br>
-![tc_process](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_process.png)
+![tc_process](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/progress_process.png)
 
 >**Note**:
 >* The figure above shows the detailed process log
@@ -541,12 +543,12 @@ Details of order management, daily orders and daily log (number of orders, file 
 To View details of order management and daily orders:
 * Go to **Auto Trade** :arrow_right: **Orders**
 
-![tc_orders](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_orders.png)
+![tc_orders](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/vw_orders.png)
 
 To View details of daily logs:
 * Go to **Auto Trade** :arrow_right: **Log Diary**
 * **Log Diary** has a column for **Equity** to help you keep track of performance
-![tc_logdiary](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_logdiary.png)
+![tc_logdiary](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/vw_logdiary.png)
 
 
 :arrow_double_up: [Back to Top](#table-of-contents)
@@ -557,7 +559,7 @@ To View details of daily logs:
 
 ### Auto Trade: Report Format
 
-![tc_report](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_report.png)
+![tc_report](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/vw_report.png)
 
 The report that will generated and emailed would consist of:
 
@@ -568,7 +570,7 @@ The report that will generated and emailed would consist of:
 * *Portfolio*: A snapshot of your portfolio at the time of processing
 * *API Error Logs*: Error log from the IB server
 
-![tc_reportemail](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/_tc_reportemail.png)
+![tc_reportemail](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/vw_reportemail.png)
 
 Above is an example of the report-email format:
 
