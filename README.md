@@ -280,7 +280,7 @@ This provides an user-interface to alter settings for trading using [**The Chart
 * Copy the updated version of **TradingAutomation.exe** from C:\downloads\_UNZIPPED FILE CONTENTS_ to your already existing folder (C:\my_software\TPT Automated Trader) that contains the old version of TradingAutomation.exe
 * You have now updated the software! 
 
->>**Note**:
+>**Note**:
 > * Updating the software will not delete or erase your data i.e. data within the **utilities** folder. However, if the software is being updated to a major release then all data  except web login/passowrds, and report email/password/details will be retained. Web login/passwords and report email/password/details will be lost and needs to be reentered.
  
 
@@ -467,7 +467,7 @@ The data provided here will be used for generating and saving reports, as well a
    * **To-Email Settings**
       * **To Email Address**: An email address that you may/may not own to which you want the email with report attached to be sent to
 
-![tc_report](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/act_reprotsettings.png)
+![tc_report](https://github.com/virusme/Automated-Trader-for-The-Chartist/blob/master/screenshots/act_reportsettings.png)
 
 >**Note**:
 >* To send an email, one needs an email address where the email originates (from-email) and a destination email (to-email)
