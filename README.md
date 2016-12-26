@@ -268,8 +268,7 @@ This provides an user-interface to alter settings for trading using [**The Chart
 <br>
 
 ### Software Update
-  ???  NEED TO DOCUMENT HOW TO UPDATE FROM PREVIOUS VERSION WHERE UTILITIES FILES HAVE CHANGED ???
-  
+ 
   Perform a software update if you have previously _activated_ your license key. 
   
   Updating the software is a very simple procedure, you will have to replace your old version of **TradingAutomation.exe** with the newly downloaded version of **TradingAutomation.exe**. If you are unsure how to do this, then follow the steps given below:
@@ -281,7 +280,9 @@ This provides an user-interface to alter settings for trading using [**The Chart
 * Copy the updated version of **TradingAutomation.exe** from C:\downloads\_UNZIPPED FILE CONTENTS_ to your already existing folder (C:\my_software\TPT Automated Trader) that contains the old version of TradingAutomation.exe
 * You have now updated the software! 
 
-
+>>**Note**:
+> * Updating the software will not delete or erase your data i.e. data within the **utilities** folder. However, if the software is being updated to a major release then all data  except web login/passowrds, and report email/password/details will be retained. Web login/passwords and report email/password/details will be lost and needs to be reentered.
+ 
 
 :arrow_double_up: [Back to Top](#table-of-contents)
 
